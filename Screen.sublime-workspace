@@ -1,0 +1,1190 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sect",
+				"sectionTwitterView"
+			],
+			[
+				"Sec",
+				"SectionModel"
+			],
+			[
+				"rme",
+				"removeClass"
+			],
+			[
+				"di",
+				"dim-vertical-spacing-less"
+			],
+			[
+				"p",
+				"pointer"
+			],
+			[
+				"font-",
+				"font-default-bold"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"color-",
+				"color-light-grey"
+			],
+			[
+				"dim",
+				"dim-vertical-spacing-much-less"
+			],
+			[
+				"pag",
+				"pag_prev"
+			],
+			[
+				"cat",
+				"category_i"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"catg",
+				"category"
+			],
+			[
+				"nav",
+				"nav_item"
+			],
+			[
+				"Car",
+				"CategoryPage"
+			],
+			[
+				"Categ",
+				"CategoryPage"
+			],
+			[
+				"pr",
+				"property"
+			],
+			[
+				"Ca",
+				"CategoryPage"
+			],
+			[
+				"ques",
+				"question_i"
+			],
+			[
+				"que",
+				"question_i"
+			],
+			[
+				"car",
+				"category_map"
+			],
+			[
+				"catego",
+				"category_map"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"has",
+				"hash"
+			],
+			[
+				"dim-ve",
+				"dim-vertical-spacing"
+			],
+			[
+				"color-grey",
+				"color-dark-grey"
+			],
+			[
+				"font",
+				"font-default-bold"
+			],
+			[
+				"colr",
+				"color-white"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"parseSA",
+				"parseSATCategory"
+			],
+			[
+				"transit",
+				"transitionend"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"color",
+				"color-green"
+			],
+			[
+				"colo",
+				"color-green"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"remve",
+				"removeClass"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"parse",
+				"parseSATQuestion"
+			],
+			[
+				"qu",
+				"questions"
+			],
+			[
+				"pa",
+				"parseSAT"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"label",
+				"label	<label>"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"hea",
+				"heading"
+			],
+			[
+				"DI",
+				"dim-vertical-spacing"
+			],
+			[
+				"val",
+				"validate"
+			],
+			[
+				"wi",
+				"widget"
+			],
+			[
+				"load",
+				"loadFilterToggle"
+			],
+			[
+				"color-p",
+				"color-pale-grey"
+			],
+			[
+				"cu",
+				"current_filter"
+			],
+			[
+				"get",
+				"getTransitionEnd"
+			],
+			[
+				"color-da",
+				"color-dark-purple"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"c",
+				"color-purple"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"op",
+				"opt1"
+			],
+			[
+				"ma",
+				"max_menus"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"dim-verti",
+				"dim-vertical-spacing"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"dim-v",
+				"dim-vertical-spacing"
+			],
+			[
+				"color-r",
+				"color-purple"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"s",
+				"static"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"color-dark",
+				"color-dark-grey"
+			],
+			[
+				"fi",
+				"filter"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"border-b",
+				"border-bottom-color"
+			],
+			[
+				"related-",
+				"related-article-item"
+			],
+			[
+				"color-pa",
+				"color-pale-green"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"tab_it",
+				"tab_item"
+			],
+			[
+				"tab",
+				"tab_item"
+			],
+			[
+				"tab-",
+				"tab-item"
+			],
+			[
+				"ar",
+				"articles"
+			],
+			[
+				"artic",
+				"article"
+			],
+			[
+				"max",
+				"max_articles"
+			],
+			[
+				"conte",
+				"content_height"
+			],
+			[
+				"d",
+				"dim-vertical-spacing"
+			],
+			[
+				"trigg",
+				"triggers"
+			],
+			[
+				"ta",
+				"tab_links"
+			],
+			[
+				"st",
+				"stopPropagation"
+			],
+			[
+				"new",
+				"new_width"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"bin",
+				"bindFilterSubmit"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"dim-ver",
+				"dim-vertical-spacing-less"
+			],
+			[
+				"lis",
+				"list-style-image"
+			],
+			[
+				"list-",
+				"list-style-image"
+			],
+			[
+				"tra",
+				"transitionEnd"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"dim-vert",
+				"dim-vertical-spacing"
+			],
+			[
+				"coor",
+				"color-purple"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"color-pale-gre",
+				"color-pale-green"
+			],
+			[
+				"next",
+				"next_link"
+			],
+			[
+				"pagina",
+				"pagination_wrap"
+			],
+			[
+				"tab_con",
+				"tab_contents_counter"
+			],
+			[
+				"tab_content",
+				"tab_contents_max"
+			],
+			[
+				"tab_cont",
+				"tab_countents_counter"
+			],
+			[
+				"tab_link",
+				"tab_link_counter"
+			],
+			[
+				"tab_",
+				"tab_max"
+			],
+			[
+				"staf",
+				"staff_member"
+			],
+			[
+				"staff",
+				"staff_member"
+			],
+			[
+				"form_ele",
+				"form_elements"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"form",
+				"form_element"
+			],
+			[
+				"ev",
+				"events"
+			],
+			[
+				"sta",
+				"status"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/scripts/templates/sections/section-ticker.ejs",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/views/screen-view.js",
+			"settings":
+			{
+				"buffer_size": 1714,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/templates/sections/section-countdown.ejs",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 4725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 852,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"lor",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"loru",
+				"LoremIpsum: (200) stick shake"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"jslin",
+				"JSLint: Run JSLint"
+			],
+			[
+				"JS",
+				"JSLint: Run JSLint"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jsli",
+				"JSLint"
+			],
+			[
+				"ista",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-countdown.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-dates.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/section-collection-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/section-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-ticker-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/screen-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-twitter.ejs",
+		"/Users/alexcoady/Sites/Screen/app/index.html",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-countdown-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-news-ticker.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-news.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-team.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-ticker.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-poll.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/section.ejs",
+		"/Users/alexcoady/Sites/Screen/Gruntfile.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-dates-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-news-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-poll-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-team-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-twitter-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-view.js",
+		"/Users/alexcoady/Sites/Screen/app/styles/_settings.scss",
+		"/Users/alexcoady/Sites/Screen/app/scripts/models/section-model.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/main.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/collections/section-collection.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/screen.ejs",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_self-assessment.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Infrastructure/Config/BundleConfig.cs",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/cpsu.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/libs/underscore.min.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_filters.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/global.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_base.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_typography.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_vendor.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/README.md",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/OnlineAssessmentTool.cshtml",
+		"/Users/alexcoady/Library/Application Support/Sublime Text 2/Packages/Emails/sublime-email/jscomment.sublime-snippet",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/OnlineAssessmentToolSurface/_FilledInDashboard.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/OnlineAssessmentToolSurface/_EmptyDashboard.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/Sidebar/_NewsletterSignUpBox.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/Sidebar/_NewsListBox.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/_Layout.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/plugins/masonry.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/OnlineAssessmentToolSurface/_Form.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/LandingPage.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Gruntfile.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_listing.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/NewsListing.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/HelpAdvice.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/NewsSurface/_FilterForm.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/DocumentLibrarySurface/_FilterForm.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/DocumentLibraryListing.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/DocumentLibrarySurface/_Listing.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/NewsSurface/_Listing.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/_Paging.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_mixins.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_common.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_navigation.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_article.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/DocumentLibrarySurface/_FilterForm.old.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/package.json",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/hello.php",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/cookies.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_tbc.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_widgets.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/_Navigation.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_forms.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_semantic-fluid-12-grid.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Search.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/SearchSurface/_SearchResults.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/DocumentLibraryItem.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Article.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/HomePage.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/Sidebar/_DownloadBox.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/Sidebar/_ExternalLinkBox.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/Sidebar/_RenderSidebar.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/Sidebar/_SimpleBox.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/TextPage.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Infrastructure/Constants.cs",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/css/global.css",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_semantic-fluid-14-grid.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/DocumentLibraryItem_old.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/libs/modernizr-2.6.2.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/libs/respond.min.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/_RelatedDocuments.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Article_old.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_article_old.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/forms.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_widgets.cscc",
+		"/Users/alexcoady/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/alexcoady/Desktop/we.we",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/_Breadcrumb.cshtml",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Infrastructure/Helpers/GlobalFunctions.cs",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/scripts/libs/jquery-1.9.1.min.js",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_semantic-fluid-grid.scss",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Web.config",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Global.asax",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/default.aspx",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Web.config",
+		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_reset.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-award.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/archive-award.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_ui-elements.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_people.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_common-elements.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_mixins.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/global.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_filters.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/js/site.js",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_navigation.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/css/global.css",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_articles.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/archive-staff.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-carousel.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/archive-news.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-news.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/css/global-min.css",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/form-filter.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/page-services.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/functions.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_typography.scss",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/js/global.js",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-staff.php",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/js/libs/jquery.flexslider-min.js",
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-client.php",
+		"/Users/alexcoady/Sites/Zone/wp-includes/js/jquery/jquery.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI",
+			"",
+			"/Users/alexcoady/Emails/CokeZone/Solus/2013-02-04",
+			"/Users/alexcoady/Emails/BT/_2013/Gadgets/2013-01-07",
+			"/Users/alexcoady/Emails/BT/_2012/Hub/",
+			"/Users/alexcoady/Emails/BT/_2012/wifi/2012-12-10",
+			"/Users/alexcoady/Emails/BT/_2012/YouView/2012-12-10",
+			"/Users/alexcoady/Emails/BT/_2012/wifi/2012-12-10",
+			"/Users/alexcoady/Sites/Carbon Brief/umbraco-site/carbonbrief_org/www",
+			"/Volumes/Users/Tim Reed/Documents/Sites/ScoutsAlex/Umbraco Site",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CountdownVie",
+			"line-he",
+			"font-family:",
+			"SectionN",
+			"SectionPollVi",
+			"SectionCountdown",
+			"SectionTeamView",
+			"TwitterView",
+			"new Section",
+			"Section",
+			"Dates",
+			"Twitter",
+			"model",
+			"40px",
+			"pag-prev",
+			"pag-next",
+			"$nav.",
+			"prev",
+			"category_map",
+			"$el",
+			"url",
+			"element",
+			"$link",
+			"@return Void:",
+			"link",
+			"p>",
+			"p",
+			"data.na",
+			"$(this).parent('.nav')",
+			"link",
+			".sat-n",
+			"that",
+			".nav-ite",
+			"filter",
+			"_",
+			"scss",
+			"_",
+			".scss",
+			"parseSATQuestion",
+			"*/",
+			".tool ",
+			".to",
+			"error",
+			"this",
+			"fns",
+			"cts",
+			"mkp",
+			"this",
+			"fns",
+			"9",
+			"10",
+			".list-item",
+			"20",
+			"10px",
+			" li ",
+			"li",
+			"item-link",
+			"40p",
+			"span",
+			"tab-content",
+			"active",
+			"cta",
+			"'",
+			"tesco_food_news_cookie_policy",
+			"search",
+			"dark",
+			"CPSU.cookies",
+			"tesco.cookies",
+			"a {",
+			"heading",
+			"a {",
+			"article-inner",
+			".te",
+			"article-inner",
+			".article-inner",
+			"90%",
+			"news",
+			"pagina",
+			" .article-wrap",
+			"margin-bottom",
+			"search",
+			"insurance",
+			"By putting a safeguarding framework in place, you will have the knowledge and confidence to recruit responsibly, manage bullying and harassment, take photographs correctly, report suspicious behaviour and much more.",
+			"Help",
+			"Help reduce insura",
+			"Help reduce insurance fees",
+			"Help reduce insurance fees.",
+			"Having the right safeguards in place",
+			"220px",
+			"margin",
+			".sidebar .widget",
+			"800px",
+			".with-tabs",
+			"900px",
+			".halfCol",
+			"10",
+			"<img class=\"card-image\"",
+			"}\n",
+			"link-card",
+			"<p>",
+			"largeSheild",
+			"third",
+			"news",
+			"listing-item",
+			"<h3>",
+			"ink-cardContent",
+			"linkCard",
+			" <img ",
+			"<div class=\"third\">",
+			".homepage-feature",
+			"$dim-vertical-spacing",
+			".homepage .standard",
+			"cta",
+			"4%",
+			"$dim-vertical-spacing",
+			"active",
+			"2000",
+			"all 1s ease-in-out;",
+			"5deg",
+			" translateX(0px) translateY(0px) skewX(0deg) skewY(0deg)",
+			"scale() ",
+			"'.article'",
+			"Topic",
+			"generic-article",
+			"$(this)",
+			"filter-options",
+			"Filter",
+			".document-filter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<img style=\"display: block;\" border=\"0\" src",
+			"/>\n		</td>",
+			"																	<img style=\"display: block;\" border=\"0\" src=\"http://www.btvision.bt.com/newsletters/_2013/Gadgets/2013-01-07/images/buttonsection-stay-connected.jpg\" width=\"129\" height=\"121\" alt=\"Stay connected with BT Wi-fi at more than 7.5 million hotspots worldwide\" />",
+			"BT Gadgets - January 2013",
+			"<td bgcolor=\"#FFFFFF\" height=\"15\" width=\"100%\"></td>",
+			"\"><img border=\"0\" style=\"display:block;\" src=\"http:",
+			"<img border=\"0\" style=\"display:block;\" src=\"http://www.btvision.bt.com/newsletters/_2012/Hub/2012-12-11/images/button.jpg\" alt=\"Get your BT Home Hub 3 here\" width=\"256\" height=\"32\" /></a>\n											\n											<table border=\"0\" width=\"561\" cellspacing=\"0\" cellpadding=\"0\">\n												<tr>\n													<td bgcolor=\"red\" height=\"15\" width=\"100%\"></td>\n												</tr>\n											</table>",
+			"Cut wi-fi interference with the BT Home Hub 3",
+			"<a href=\"http://www",
+			"<a href=\"http://www.productsandservices.bt.com/products/tv\" style=\"color:#FFFFFF; text-decoration: none;\"><span style=\"color:#FFFFFF\"><font size=\"1\" face=\"Tahoma\" color=\"#FFFFFF\"><b>Want to pause, replay and <br />record live TV?</b></font></span></a><br />\n<a href=\"http://www",
+			"<a href=\"http://www.productsandservices.bt.com/products/tv\" style=\"color:#FFFFFF; text-decoration: none;\"><span style=\"color:#FFFFFF\"><font size=\"1\" face=\"Tahoma\" color=\"#FFFFFF\"><b>Want to pause, replay and <br />record live TV?</b></font></span></a><br />\n<a href=\"http://www.productsandservices.bt.com/consumerProducts/dynamicmodules/pagecontentfooter/pageContentFooterPopup.jsp?pagecontentfooter_popupid=13408\" target=\"_blank\" style=\"color:#FFFFFF; text-decoration: none;\"><span style=\"color: #FFFFFF;\"><font color=\"#FFFFFF\"><b><u>Terms apply</u></b></font></span></a>.",
+			"<a href=\"http://www.productsandservices.bt.com/products/tv\" style=\"color:#FFFFFF; text-decoration: none;\"><span style=\"color:#FFFFFF\"><font size=\"1\" face=\"Tahoma\" color=\"#FFFFFF\"><b>Want to pause, replay and <br />record live TV?</b></font></span></a><br />\n														<a href=\"http://www.productsandservices.bt.com/products/tv\" style=\"color:#FFFFFF; text-decoration: none;\"><span style=\"color:#FFFFFF\"><font size=\"1\" face=\"Tahoma\" color=\"#FFFFFF\"><u>With BT Vision you never <br />miss a thing</u></font></span></a>",
+			"&pound;15.45 a month",
+			"BT Broadband talk doesn’t work with the Home Hub 3. If you use the service and take this offer your Broadband Talk service will stop.",
+			"<font color=\"#5e5e5e\"><u>click here</u><",
+			"<font color=\"#5e5e5e\">click<u>click here</u><",
+			"><u>click here</u><",
+			"<a target=\"_blank\" href=\"http://www.vouchers.bt.com",
+			"<a href=\"http://www.vouchers.bt.com",
+			"target",
+			"http://btvision.bt.com/newsletters/_2012/wifi/2012-12-10/images/",
+			"@btcomms.com",
+			"http://www.btvision.bt.com/newsletters/_2012/YouView/2012-12-10/images/",
+			"http://btvision.bt.com/newsletters/_2012/wifi/2012-12-10/images/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/templates/sections/section-ticker.ejs",
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/views/screen-view.js",
+					"settings":
+					{
+						"buffer_size": 1714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								1076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/templates/sections/section-countdown.ejs",
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "app/styles/main.scss",
+					"settings":
+					{
+						"buffer_size": 4725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1603,
+								1603
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/styles/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.528276225263,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"globa",
+				"sass/global.scss"
+			],
+			[
+				"listing",
+				"sass/_listing.scss"
+			],
+			[
+				"",
+				"sass/_filters.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true
+}

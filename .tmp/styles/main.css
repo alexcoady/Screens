@@ -1,0 +1,358 @@
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* -------------------------------------------------------- */
+/* ------- COLOURS ---------------------------------------- */
+/* -------------------------------------------------------- */
+/* ------- COLOURS - DEFINITION --------------------------- */
+/* ------- COLOURS - CONTEXT ------------------------------ */
+/* -------------------------------------------------------- */
+/* ------- FONTS ------------------------------------------ */
+/* -------------------------------------------------------- */
+/* ------- FONTS - DEFINITION ----------------------------- */
+/* ------- FONTS - CONTEXT -------------------------------- */
+/* -------------------------------------------------------- */
+/* ------- GLOBAL ----------------------------------------- */
+/* -------------------------------------------------------- */
+/* line 10, ../../app/styles/main.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 15, ../../app/styles/main.scss */
+body {
+  font-family: "Serifa W01 Light";
+  font-size: 16px;
+  background: #EAEAEA;
+}
+
+/* line 21, ../../app/styles/main.scss */
+p, span {
+  line-height: 1.3em;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SCREEN ----------------------------------------- */
+/* -------------------------------------------------------- */
+/* line 29, ../../app/styles/main.scss */
+.screen {
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  margin: 5px;
+  position: relative;
+  min-width: 1024px;
+  min-height: 768px;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS --------------------------------------- */
+/* -------------------------------------------------------- */
+/* line 42, ../../app/styles/main.scss */
+.section {
+  position: absolute;
+}
+
+/* line 46, ../../app/styles/main.scss */
+.section > .inner {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 5px;
+  background: #FFF;
+  height: calc(100% - 10px);
+}
+
+/* line 53, ../../app/styles/main.scss */
+.section .header {
+  margin: 10px;
+}
+
+/* line 57, ../../app/styles/main.scss */
+.section .heading {
+  font-size: 1.4em;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS - COUNTDOWN --------------------------- */
+/* -------------------------------------------------------- */
+/* line 65, ../../app/styles/main.scss */
+.section-countdown {
+  top: 0%;
+  left: 20%;
+  width: 60%;
+  height: 10%;
+  text-align: center;
+}
+
+/* line 73, ../../app/styles/main.scss */
+.section-countdown .time {
+  display: inline-block;
+  font-size: 4em;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  margin-right: 20px;
+}
+
+/* line 81, ../../app/styles/main.scss */
+.section-countdown .until {
+  display: inline-block;
+  font-size: 2em;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS - NEWS -------------------------------- */
+/* -------------------------------------------------------- */
+/* line 90, ../../app/styles/main.scss */
+.section-news {
+  top: 00%;
+  left: 0%;
+  width: 20%;
+  height: 60%;
+}
+
+/* line 97, ../../app/styles/main.scss */
+.section-news .figure {
+  margin: 10px;
+}
+
+/* line 101, ../../app/styles/main.scss */
+.section-news .figure .preview {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 106, ../../app/styles/main.scss */
+.section-news .figure .caption {
+  margin-top: 10px;
+}
+
+/* line 110, ../../app/styles/main.scss */
+.section-news .entry-content {
+  margin: 10px;
+}
+
+/* line 114, ../../app/styles/main.scss */
+.section-news .entry-content .date {
+  font-size: 1.2em;
+}
+
+/* line 118, ../../app/styles/main.scss */
+.section-news .entry-content p {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS - TWITTER ----------------------------- */
+/* -------------------------------------------------------- */
+/* line 128, ../../app/styles/main.scss */
+.section-twitter {
+  top: 10%;
+  left: 20%;
+  width: 30%;
+  height: 80%;
+}
+
+/* line 135, ../../app/styles/main.scss */
+.section-twitter .chart {
+  width: calc(100% - 40px);
+  margin: 0 20px 20px;
+  height: 150px;
+  background: #EAEAEA;
+}
+
+/* line 142, ../../app/styles/main.scss */
+.section-twitter .tweet {
+  overflow: hidden;
+  *zoom: 1;
+  width: calc(100% - 40px);
+  margin: 0 20px 20px;
+  height: 150px;
+  background: pink;
+}
+
+/* line 150, ../../app/styles/main.scss */
+.section-twitter .tweet .text {
+  display: block;
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+/* line 156, ../../app/styles/main.scss */
+.section-twitter .stat-wrap {
+  margin: 0 10px;
+}
+
+/* line 160, ../../app/styles/main.scss */
+.section-twitter .stat {
+  float: left;
+  margin: 0 10px;
+}
+
+/* line 165, ../../app/styles/main.scss */
+.section-twitter .stat .value {
+  font-size: 4em;
+  display: block;
+}
+
+/* line 170, ../../app/styles/main.scss */
+.section-twitter .stat .property {
+  font-size: 1em;
+  display: block;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS - TEAM -------------------------------- */
+/* -------------------------------------------------------- */
+/* line 179, ../../app/styles/main.scss */
+.section-team {
+  top: 10%;
+  left: 50%;
+  width: 30%;
+  height: 80%;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS - TICKER ------------------------------ */
+/* -------------------------------------------------------- */
+/* line 190, ../../app/styles/main.scss */
+.section-ticker {
+  top: 90%;
+  left: 0%;
+  width: 100%;
+  height: 10%;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS - POLL -------------------------------- */
+/* -------------------------------------------------------- */
+/* line 201, ../../app/styles/main.scss */
+.section-poll {
+  top: 0%;
+  left: 80%;
+  width: 20%;
+  height: 90%;
+}
+
+/* line 208, ../../app/styles/main.scss */
+.section-poll .question {
+  margin-top: 20px;
+  font-size: 1.4em;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+/* -------------------------------------------------------- */
+/* ------- SECTIONS - DATES ------------------------------- */
+/* -------------------------------------------------------- */
+/* line 219, ../../app/styles/main.scss */
+.section-dates {
+  top: 60%;
+  left: 0%;
+  width: 20%;
+  height: 30%;
+}
+
+/* line 226, ../../app/styles/main.scss */
+.section-dates .list {
+  margin: 10px;
+}
+
+/* line 230, ../../app/styles/main.scss */
+.section-dates .item {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* line 236, ../../app/styles/main.scss */
+.section-dates .item .date {
+  float: left;
+}
+/* line 239, ../../app/styles/main.scss */
+.section-dates .item .date .day {
+  font-size: 3em;
+  display: block;
+  line-height: 1em;
+}
+/* line 240, ../../app/styles/main.scss */
+.section-dates .item .date .month {
+  font-size: 1em;
+  display: block;
+  line-height: 1em;
+  text-align: center;
+}
+
+/* line 243, ../../app/styles/main.scss */
+.section-dates .item .event {
+  float: left;
+  margin-left: 10px;
+}
+/* line 247, ../../app/styles/main.scss */
+.section-dates .item .event .title {
+  font-size: 1.4em;
+  display: block;
+}
