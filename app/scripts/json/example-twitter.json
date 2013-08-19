@@ -1,0 +1,14 @@
+{
+	"status": "success",
+	"type": "twitter",
+	"content": {
+
+		"tweet_count": "2807",
+		"retweet_count": "203",
+		"mention_count": "2034",
+
+		"last_follower": {
+			
+		}
+	}
+}
