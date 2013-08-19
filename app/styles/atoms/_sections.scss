@@ -1,0 +1,29 @@
+/*
+*	Section
+*
+*	Example HTML:
+*
+*	<section class="section">
+*		<div class="inner">
+*			<header class="header">
+*				<h2 class="heading">Section heading</h2>
+*			</header>
+*		</div>
+*	</section>
+*/
+
+.section {
+	position: absolute;
+}
+
+.section > .inner {
+	@include clearfix;
+	overflow: hidden;
+	margin: 5px;
+	background: #FFF;
+	height: calc(100% - 10px);
+}
+
+.section > .inner > .header {
+	margin: 10px;
+}

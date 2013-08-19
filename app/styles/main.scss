@@ -1,62 +1,21 @@
-@import "compass/utilities/general/clearfix";
-@import "compass/reset";
-
 @import "settings";
 
-/* -------------------------------------------------------- */
-/* ------- GLOBAL ----------------------------------------- */
-/* -------------------------------------------------------- */
+/* ------- UTILITIES -------------------------------------- */
+@import "compass/reset";
+@import "utilities/clearfix";
 
-html, body {
-	height: 100%;
-	width: 100%;
-}
+/* ------- QUARKS ----------------------------------------- */
+@import "quarks/body";
+@import "quarks/headings";
+@import "quarks/paragraph";
 
-body {
-	font-family: $font-default;
-	font-size: 16px;
-	background: #EAEAEA;
-}
+/* ------- ATOMS ------------------------------------------ */
+@import "atoms/screen";
+@import "atoms/sections";
 
-p, span {
-	line-height: 1.3em;
-}
 
-/* -------------------------------------------------------- */
-/* ------- SCREEN ----------------------------------------- */
-/* -------------------------------------------------------- */
+/* ------- MOLECULES -------------------------------------- */
 
-.screen {
-	width: calc(100% - 10px);
-	height: calc(100% - 10px);
-	margin: 5px;
-	position: relative;
-	min-width: 1024px;
-	min-height: 768px;
-}
-
-/* -------------------------------------------------------- */
-/* ------- SECTIONS --------------------------------------- */
-/* -------------------------------------------------------- */
-
-.section {
-	position: absolute;
-}
-
-.section > .inner {
-	@include clearfix;
-	margin: 5px;
-	background: #FFF;
-	height: calc(100% - 10px);
-}
-
-.section .header {
-	margin: 10px;
-}
-
-.section .heading {
-	font-size: 1.4em;
-}
 
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - COUNTDOWN --------------------------- */

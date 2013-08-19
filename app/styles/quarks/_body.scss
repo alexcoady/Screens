@@ -1,0 +1,18 @@
+/*
+*	Body
+*
+*	Example HTML:
+*
+*	<body></body>
+*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: $font-default;
+	font-size: 16px;
+	background: #EAEAEA;
+}

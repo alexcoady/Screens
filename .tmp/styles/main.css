@@ -1,4 +1,18 @@
-/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* -------------------------------------------------------- */
+/* ------- COLOURS ---------------------------------------- */
+/* -------------------------------------------------------- */
+/* ------- COLOURS - DEFINITION --------------------------- */
+/* ------- COLOURS - CONTEXT ------------------------------ */
+/* -------------------------------------------------------- */
+/* ------- FONTS ------------------------------------------ */
+/* -------------------------------------------------------- */
+/* ------- FONTS - DEFINITION ----------------------------- */
+/* ------- FONTS - CONTEXT -------------------------------- */
+/* -------------------------------------------------------- */
+/* ------- SPACING ---------------------------------------- */
+/* -------------------------------------------------------- */
+/* ------- UTILITIES -------------------------------------- */
+/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,84 +34,98 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* -------------------------------------------------------- */
-/* ------- COLOURS ---------------------------------------- */
-/* -------------------------------------------------------- */
-/* ------- COLOURS - DEFINITION --------------------------- */
-/* ------- COLOURS - CONTEXT ------------------------------ */
-/* -------------------------------------------------------- */
-/* ------- FONTS ------------------------------------------ */
-/* -------------------------------------------------------- */
-/* ------- FONTS - DEFINITION ----------------------------- */
-/* ------- FONTS - CONTEXT -------------------------------- */
-/* -------------------------------------------------------- */
-/* ------- GLOBAL ----------------------------------------- */
-/* -------------------------------------------------------- */
-/* line 10, ../../app/styles/main.scss */
+/* ------- QUARKS ----------------------------------------- */
+/*
+*	Body
+*
+*	Example HTML:
+*
+*	<body></body>
+*/
+/* line 9, /Users/alexcoady/Sites/Screen/app/styles/quarks/_body.scss */
 html, body {
   height: 100%;
   width: 100%;
 }
 
-/* line 15, ../../app/styles/main.scss */
+/* line 14, /Users/alexcoady/Sites/Screen/app/styles/quarks/_body.scss */
 body {
   font-family: "Serifa W01 Light";
   font-size: 16px;
   background: #EAEAEA;
 }
 
-/* line 21, ../../app/styles/main.scss */
-p, span {
-  line-height: 1.3em;
+/* line 1, /Users/alexcoady/Sites/Screen/app/styles/quarks/_headings.scss */
+.heading {
+  font-size: 1.4em;
 }
 
-/* -------------------------------------------------------- */
-/* ------- SCREEN ----------------------------------------- */
-/* -------------------------------------------------------- */
-/* line 29, ../../app/styles/main.scss */
+/*
+*	Paragraph
+*
+*	Example HTML:
+*
+*	<p>Lorem ipsum Dolor enim pariatur qui in quis dolor minim./p>
+*	<p>Lorem ipsum Dolor enim pariatur qui in quis dolor minim./p>
+*/
+/* line 10, /Users/alexcoady/Sites/Screen/app/styles/quarks/_paragraph.scss */
+p {
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+
+/* ------- ATOMS ------------------------------------------ */
+/*
+*	Screen wrapper
+*
+*	Example HTML:
+*
+*	<div class="screen"></div>
+*/
+/* line 9, /Users/alexcoady/Sites/Screen/app/styles/atoms/_screen.scss */
 .screen {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
@@ -107,37 +135,52 @@ p, span {
   min-height: 768px;
 }
 
-/* -------------------------------------------------------- */
-/* ------- SECTIONS --------------------------------------- */
-/* -------------------------------------------------------- */
-/* line 42, ../../app/styles/main.scss */
+/*
+*	Section
+*
+*	Example HTML:
+*
+*	<section class="section">
+*		<div class="inner">
+*			<header class="header">
+*				<h2 class="heading">Section heading</h2>
+*			</header>
+*		</div>
+*	</section>
+*/
+/* line 15, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section {
   position: absolute;
 }
 
-/* line 46, ../../app/styles/main.scss */
+/* line 19, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section > .inner {
-  overflow: hidden;
   *zoom: 1;
+  overflow: hidden;
   margin: 5px;
   background: #FFF;
   height: calc(100% - 10px);
 }
+/* line 5, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section > .inner:before, .section > .inner:after {
+  content: "";
+  display: table;
+}
+/* line 9, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section > .inner:after {
+  clear: both;
+}
 
-/* line 53, ../../app/styles/main.scss */
-.section .header {
+/* line 27, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+.section > .inner > .header {
   margin: 10px;
 }
 
-/* line 57, ../../app/styles/main.scss */
-.section .heading {
-  font-size: 1.4em;
-}
-
+/* ------- MOLECULES -------------------------------------- */
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - COUNTDOWN --------------------------- */
 /* -------------------------------------------------------- */
-/* line 65, ../../app/styles/main.scss */
+/* line 24, ../../app/styles/main.scss */
 .section-countdown {
   top: 0%;
   left: 20%;
@@ -146,7 +189,7 @@ p, span {
   text-align: center;
 }
 
-/* line 73, ../../app/styles/main.scss */
+/* line 32, ../../app/styles/main.scss */
 .section-countdown .time {
   display: inline-block;
   font-size: 4em;
@@ -155,7 +198,7 @@ p, span {
   margin-right: 20px;
 }
 
-/* line 81, ../../app/styles/main.scss */
+/* line 40, ../../app/styles/main.scss */
 .section-countdown .until {
   display: inline-block;
   font-size: 2em;
@@ -164,7 +207,7 @@ p, span {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - NEWS -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 90, ../../app/styles/main.scss */
+/* line 49, ../../app/styles/main.scss */
 .section-news {
   top: 00%;
   left: 0%;
@@ -172,33 +215,33 @@ p, span {
   height: 60%;
 }
 
-/* line 97, ../../app/styles/main.scss */
+/* line 56, ../../app/styles/main.scss */
 .section-news .figure {
   margin: 10px;
 }
 
-/* line 101, ../../app/styles/main.scss */
+/* line 60, ../../app/styles/main.scss */
 .section-news .figure .preview {
   max-width: 100%;
   height: auto;
 }
 
-/* line 106, ../../app/styles/main.scss */
+/* line 65, ../../app/styles/main.scss */
 .section-news .figure .caption {
   margin-top: 10px;
 }
 
-/* line 110, ../../app/styles/main.scss */
+/* line 69, ../../app/styles/main.scss */
 .section-news .entry-content {
   margin: 10px;
 }
 
-/* line 114, ../../app/styles/main.scss */
+/* line 73, ../../app/styles/main.scss */
 .section-news .entry-content .date {
   font-size: 1.2em;
 }
 
-/* line 118, ../../app/styles/main.scss */
+/* line 77, ../../app/styles/main.scss */
 .section-news .entry-content p {
   font-size: 2em;
   margin-bottom: 10px;
@@ -207,7 +250,7 @@ p, span {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - TWITTER ----------------------------- */
 /* -------------------------------------------------------- */
-/* line 128, ../../app/styles/main.scss */
+/* line 87, ../../app/styles/main.scss */
 .section-twitter {
   top: 10%;
   left: 20%;
@@ -215,7 +258,7 @@ p, span {
   height: 80%;
 }
 
-/* line 135, ../../app/styles/main.scss */
+/* line 94, ../../app/styles/main.scss */
 .section-twitter .chart {
   width: calc(100% - 40px);
   margin: 0 20px 20px;
@@ -223,41 +266,49 @@ p, span {
   background: #EAEAEA;
 }
 
-/* line 142, ../../app/styles/main.scss */
+/* line 101, ../../app/styles/main.scss */
 .section-twitter .tweet {
-  overflow: hidden;
   *zoom: 1;
   width: calc(100% - 40px);
   margin: 0 20px 20px;
   height: 150px;
   background: pink;
 }
+/* line 5, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section-twitter .tweet:before, .section-twitter .tweet:after {
+  content: "";
+  display: table;
+}
+/* line 9, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section-twitter .tweet:after {
+  clear: both;
+}
 
-/* line 150, ../../app/styles/main.scss */
+/* line 109, ../../app/styles/main.scss */
 .section-twitter .tweet .text {
   display: block;
   margin: 20px;
   font-size: 1.2em;
 }
 
-/* line 156, ../../app/styles/main.scss */
+/* line 115, ../../app/styles/main.scss */
 .section-twitter .stat-wrap {
   margin: 0 10px;
 }
 
-/* line 160, ../../app/styles/main.scss */
+/* line 119, ../../app/styles/main.scss */
 .section-twitter .stat {
   float: left;
   margin: 0 10px;
 }
 
-/* line 165, ../../app/styles/main.scss */
+/* line 124, ../../app/styles/main.scss */
 .section-twitter .stat .value {
   font-size: 4em;
   display: block;
 }
 
-/* line 170, ../../app/styles/main.scss */
+/* line 129, ../../app/styles/main.scss */
 .section-twitter .stat .property {
   font-size: 1em;
   display: block;
@@ -266,7 +317,7 @@ p, span {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - TEAM -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 179, ../../app/styles/main.scss */
+/* line 138, ../../app/styles/main.scss */
 .section-team {
   top: 10%;
   left: 50%;
@@ -277,7 +328,7 @@ p, span {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - TICKER ------------------------------ */
 /* -------------------------------------------------------- */
-/* line 190, ../../app/styles/main.scss */
+/* line 149, ../../app/styles/main.scss */
 .section-ticker {
   top: 90%;
   left: 0%;
@@ -288,7 +339,7 @@ p, span {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - POLL -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 201, ../../app/styles/main.scss */
+/* line 160, ../../app/styles/main.scss */
 .section-poll {
   top: 0%;
   left: 80%;
@@ -296,7 +347,7 @@ p, span {
   height: 90%;
 }
 
-/* line 208, ../../app/styles/main.scss */
+/* line 167, ../../app/styles/main.scss */
 .section-poll .question {
   margin-top: 20px;
   font-size: 1.4em;
@@ -307,7 +358,7 @@ p, span {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - DATES ------------------------------- */
 /* -------------------------------------------------------- */
-/* line 219, ../../app/styles/main.scss */
+/* line 178, ../../app/styles/main.scss */
 .section-dates {
   top: 60%;
   left: 0%;
@@ -315,30 +366,38 @@ p, span {
   height: 30%;
 }
 
-/* line 226, ../../app/styles/main.scss */
+/* line 185, ../../app/styles/main.scss */
 .section-dates .list {
   margin: 10px;
 }
 
-/* line 230, ../../app/styles/main.scss */
+/* line 189, ../../app/styles/main.scss */
 .section-dates .item {
-  overflow: hidden;
   *zoom: 1;
   display: block;
   margin-bottom: 10px;
 }
+/* line 5, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section-dates .item:before, .section-dates .item:after {
+  content: "";
+  display: table;
+}
+/* line 9, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section-dates .item:after {
+  clear: both;
+}
 
-/* line 236, ../../app/styles/main.scss */
+/* line 195, ../../app/styles/main.scss */
 .section-dates .item .date {
   float: left;
 }
-/* line 239, ../../app/styles/main.scss */
+/* line 198, ../../app/styles/main.scss */
 .section-dates .item .date .day {
   font-size: 3em;
   display: block;
   line-height: 1em;
 }
-/* line 240, ../../app/styles/main.scss */
+/* line 199, ../../app/styles/main.scss */
 .section-dates .item .date .month {
   font-size: 1em;
   display: block;
@@ -346,12 +405,12 @@ p, span {
   text-align: center;
 }
 
-/* line 243, ../../app/styles/main.scss */
+/* line 202, ../../app/styles/main.scss */
 .section-dates .item .event {
   float: left;
   margin-left: 10px;
 }
-/* line 247, ../../app/styles/main.scss */
+/* line 206, ../../app/styles/main.scss */
 .section-dates .item .event .title {
   font-size: 1.4em;
   display: block;
