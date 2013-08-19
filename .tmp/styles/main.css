@@ -12,7 +12,7 @@
 /* ------- SPACING ---------------------------------------- */
 /* -------------------------------------------------------- */
 /* ------- UTILITIES -------------------------------------- */
-/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -34,45 +34,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -85,20 +85,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 *
 *	<body></body>
 */
-/* line 9, /Users/alexcoady/Sites/Screen/app/styles/quarks/_body.scss */
+/* line 9, ../../app/styles/quarks/_body.scss */
 html, body {
   height: 100%;
   width: 100%;
 }
 
-/* line 14, /Users/alexcoady/Sites/Screen/app/styles/quarks/_body.scss */
+/* line 14, ../../app/styles/quarks/_body.scss */
 body {
   font-family: "Serifa W01 Light";
   font-size: 16px;
   background: #EAEAEA;
 }
+@media screen and (max-width: 1200px) {
+  /* line 14, ../../app/styles/quarks/_body.scss */
+  body {
+    font-size: 10px;
+  }
+}
 
-/* line 1, /Users/alexcoady/Sites/Screen/app/styles/quarks/_headings.scss */
+/* line 1, ../../app/styles/quarks/_headings.scss */
 .heading {
   font-size: 1.4em;
 }
@@ -111,7 +117,7 @@ body {
 *	<p>Lorem ipsum Dolor enim pariatur qui in quis dolor minim./p>
 *	<p>Lorem ipsum Dolor enim pariatur qui in quis dolor minim./p>
 */
-/* line 10, /Users/alexcoady/Sites/Screen/app/styles/quarks/_paragraph.scss */
+/* line 10, ../../app/styles/quarks/_paragraph.scss */
 p {
   line-height: 1.4em;
   margin-bottom: 20px;
@@ -125,7 +131,7 @@ p {
 *
 *	<div class="screen"></div>
 */
-/* line 9, /Users/alexcoady/Sites/Screen/app/styles/atoms/_screen.scss */
+/* line 9, ../../app/styles/atoms/_screen.scss */
 .screen {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
@@ -148,12 +154,12 @@ p {
 *		</div>
 *	</section>
 */
-/* line 15, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 15, ../../app/styles/atoms/_sections.scss */
 .section {
   position: absolute;
 }
 
-/* line 19, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 19, ../../app/styles/atoms/_sections.scss */
 .section > .inner {
   *zoom: 1;
   overflow: hidden;
@@ -161,17 +167,17 @@ p {
   background: #FFF;
   height: calc(100% - 10px);
 }
-/* line 5, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+/* line 5, ../../app/styles/utilities/_clearfix.scss */
 .section > .inner:before, .section > .inner:after {
   content: "";
   display: table;
 }
-/* line 9, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+/* line 9, ../../app/styles/utilities/_clearfix.scss */
 .section > .inner:after {
   clear: both;
 }
 
-/* line 27, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 27, ../../app/styles/atoms/_sections.scss */
 .section > .inner > .header {
   margin: 10px;
 }
@@ -274,12 +280,12 @@ p {
   height: 150px;
   background: pink;
 }
-/* line 5, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+/* line 5, ../../app/styles/utilities/_clearfix.scss */
 .section-twitter .tweet:before, .section-twitter .tweet:after {
   content: "";
   display: table;
 }
-/* line 9, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+/* line 9, ../../app/styles/utilities/_clearfix.scss */
 .section-twitter .tweet:after {
   clear: both;
 }
@@ -291,33 +297,10 @@ p {
   font-size: 1.2em;
 }
 
-/* line 115, ../../app/styles/main.scss */
-.section-twitter .stat-wrap {
-  margin: 0 10px;
-}
-
-/* line 119, ../../app/styles/main.scss */
-.section-twitter .stat {
-  float: left;
-  margin: 0 10px;
-}
-
-/* line 124, ../../app/styles/main.scss */
-.section-twitter .stat .value {
-  font-size: 4em;
-  display: block;
-}
-
-/* line 129, ../../app/styles/main.scss */
-.section-twitter .stat .property {
-  font-size: 1em;
-  display: block;
-}
-
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - TEAM -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 138, ../../app/styles/main.scss */
+/* line 119, ../../app/styles/main.scss */
 .section-team {
   top: 10%;
   left: 50%;
@@ -328,7 +311,7 @@ p {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - TICKER ------------------------------ */
 /* -------------------------------------------------------- */
-/* line 149, ../../app/styles/main.scss */
+/* line 130, ../../app/styles/main.scss */
 .section-ticker {
   top: 90%;
   left: 0%;
@@ -339,7 +322,7 @@ p {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - POLL -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 160, ../../app/styles/main.scss */
+/* line 141, ../../app/styles/main.scss */
 .section-poll {
   top: 0%;
   left: 80%;
@@ -347,7 +330,7 @@ p {
   height: 90%;
 }
 
-/* line 167, ../../app/styles/main.scss */
+/* line 148, ../../app/styles/main.scss */
 .section-poll .question {
   margin-top: 20px;
   font-size: 1.4em;
@@ -358,7 +341,7 @@ p {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - DATES ------------------------------- */
 /* -------------------------------------------------------- */
-/* line 178, ../../app/styles/main.scss */
+/* line 159, ../../app/styles/main.scss */
 .section-dates {
   top: 60%;
   left: 0%;
@@ -366,38 +349,38 @@ p {
   height: 30%;
 }
 
-/* line 185, ../../app/styles/main.scss */
+/* line 166, ../../app/styles/main.scss */
 .section-dates .list {
   margin: 10px;
 }
 
-/* line 189, ../../app/styles/main.scss */
+/* line 170, ../../app/styles/main.scss */
 .section-dates .item {
   *zoom: 1;
   display: block;
   margin-bottom: 10px;
 }
-/* line 5, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+/* line 5, ../../app/styles/utilities/_clearfix.scss */
 .section-dates .item:before, .section-dates .item:after {
   content: "";
   display: table;
 }
-/* line 9, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+/* line 9, ../../app/styles/utilities/_clearfix.scss */
 .section-dates .item:after {
   clear: both;
 }
 
-/* line 195, ../../app/styles/main.scss */
+/* line 176, ../../app/styles/main.scss */
 .section-dates .item .date {
   float: left;
 }
-/* line 198, ../../app/styles/main.scss */
+/* line 179, ../../app/styles/main.scss */
 .section-dates .item .date .day {
   font-size: 3em;
   display: block;
   line-height: 1em;
 }
-/* line 199, ../../app/styles/main.scss */
+/* line 180, ../../app/styles/main.scss */
 .section-dates .item .date .month {
   font-size: 1em;
   display: block;
@@ -405,12 +388,12 @@ p {
   text-align: center;
 }
 
-/* line 202, ../../app/styles/main.scss */
+/* line 183, ../../app/styles/main.scss */
 .section-dates .item .event {
   float: left;
   margin-left: 10px;
 }
-/* line 206, ../../app/styles/main.scss */
+/* line 187, ../../app/styles/main.scss */
 .section-dates .item .event .title {
   font-size: 1.4em;
   display: block;

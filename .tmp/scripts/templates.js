@@ -12,18 +12,6 @@ __p += '';
 return __p
 };
 
-this["JST"]["app/scripts/templates/section.ejs"] = function(obj) {
-obj || (obj = {});
-var __t, __p = '', __e = _.escape;
-with (obj) {
-__p += '<div class="inner">\n\t<header class="header">\n\t\t<h2 class="heading">' +
-((__t = ( title )) == null ? '' : __t) +
-'</h2>\n\t</header><!-- /header -->\n</div>';
-
-}
-return __p
-};
-
 this["JST"]["app/scripts/templates/sections/section-collection.ejs"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
@@ -108,9 +96,39 @@ this["JST"]["app/scripts/templates/sections/section-twitter.ejs"] = function(obj
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
+__p += '<div class="inner">\n\t\n\t<header class="header">\n\t\t<h2 class="heading">' +
+((__t = ( title )) == null ? '' : __t) +
+'</h2>\n\t</header><!-- /header -->\n\n\t<section class="chart"></section>\n\t<section class="chart"></section>\n\n\t<section class="twitter__user"></section>\n\n</div>';
+
+}
+return __p
+};
+
+this["JST"]["app/scripts/templates/sections/section.ejs"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
 __p += '<div class="inner">\n\t<header class="header">\n\t\t<h2 class="heading">' +
 ((__t = ( title )) == null ? '' : __t) +
-'</h2>\n\t</header><!-- /header -->\n\n\t<section class="chart"></section>\n\t<section class="chart"></section>\n\t<section class="tweet">\n\t\t<span class="text">Lorem ipsum Non veniam sint exercitation aliquip in veniam quis cupidatat sunt reprehenderit dolore culpa minim veniam sed in proident occaecat incididunt eiusmod ea ea dolore Duis id dolore.</span>\n\t</section>\n\n\t<section class="stat-wrap">\n\t\t<section class="stat">\n\t\t\t<span class="value">3534</span>\n\t\t\t<span class="property">Tweets</span>\n\t\t</section>\n\n\t\t<section class="stat">\n\t\t\t<span class="value">254</span>\n\t\t\t<span class="property">Retweets</span>\n\t\t</section>\n\n\t\t<section class="stat">\n\t\t\t<span class="value">54,354</span>\n\t\t\t<span class="property">Mentions</span>\n\t\t</section>\n\t</section>\n\n</div>';
+'</h2>\n\t</header><!-- /header -->\n</div>';
+
+}
+return __p
+};
+
+this["JST"]["app/scripts/templates/sections/twitter/twitter-user.ejs"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<section class="tweet">\n\t<span class="text">' +
+((__t = ( status.text )) == null ? '' : __t) +
+'</span>\n</section>\n\n<span class="value">' +
+((__t = ( statuses_count )) == null ? '' : __t) +
+'</span>\n<span class="title">Tweets</span>\n\n<span class="value">' +
+((__t = ( followers_count )) == null ? '' : __t) +
+'</span>\n<span class="title">Followers</span>\n\n<span class="value">' +
+((__t = ( favourites_count )) == null ? '' : __t) +
+'</span>\n<span class="title">Favorites</span>';
 
 }
 return __p

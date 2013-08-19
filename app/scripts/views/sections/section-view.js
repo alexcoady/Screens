@@ -18,14 +18,12 @@ define([
 
         initialize: function initializeFn () {
 
+            this.$el.addClass( "section-" + this.model.get("type") );
         },
 
         render: function renderFn () {
 
-        	this.$el.addClass( this.model.get("cssClass") );
-
-        	var template = this.template( this.model.toJSON() );
-            
+        	var template = this.template( this.model.toJSON() );            
         	this.$el.html(template);
         	return this;
         }

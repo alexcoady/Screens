@@ -5,7 +5,7 @@ define([
     'underscore',
     'backbone',
     'templates',
-    'views/section-view',
+    'views/sections/section-view',
 
 ], function ($, _, Backbone, JST, SectionView) {
     'use strict';

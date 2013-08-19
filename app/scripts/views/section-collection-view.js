@@ -5,7 +5,7 @@ define([
     'underscore',
     'backbone',
     'templates',
-    'views/section-view',
+    'views/sections/section-view',
 
     'views/sections/section-twitter-view',
     'views/sections/section-countdown-view',
@@ -81,8 +81,6 @@ define([
         	}
 
         	this.$el.append( view.render().el );
-
-        	this.log( view.render().el );
 
         	return this;
         }
