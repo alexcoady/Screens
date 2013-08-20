@@ -372,7 +372,7 @@ p {
 }
 
 /* line 25, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
-.axis text {
+text {
   font-family: inherit;
   font-size: 18px;
   font-weight: bold;
@@ -382,6 +382,16 @@ p {
 /* line 32, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
 .grid-line {
   stroke: rgba(0, 0, 0, 0.2);
+}
+
+/* line 36, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+.bar-background {
+  fill: rgba(0, 0, 0, 0.2);
+}
+
+/* line 40, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+.bar-content {
+  fill: rgba(255, 255, 255, 0.7);
 }
 
 /*

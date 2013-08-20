@@ -22,7 +22,7 @@
 }
 
 
-.axis text {
+ text {
 	font-family: inherit;
 	font-size: 18px;
 	font-weight: bold;
@@ -31,4 +31,12 @@
 
 .grid-line {
 	stroke: rgba(black, 0.2);
+}
+
+.bar-background {
+	fill: rgba(black, 0.2);
+}
+
+.bar-content {
+	fill: rgba(white, 0.7);
 }

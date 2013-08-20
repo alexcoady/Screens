@@ -173,12 +173,27 @@ define([
                 [ 11, 45 ],
             ];
 
+            var months = [
+                "J", 
+                "F", 
+                "M", 
+                "A", 
+                "M", 
+                "J", 
+                "J", 
+                "A", 
+                "S", 
+                "O", 
+                "N", 
+                "D"
+            ];
+
             var padding = {
                 top: 0,
                 right: 0,
-                bottom: 0,
+                bottom: 20,
                 left: 0,
-                bar: 20
+                bar: 15
             };
 
             var width = this.$('.chart--twitter-month').width(),
@@ -189,16 +204,16 @@ define([
                         .range([padding.left, width - padding.right]);
 
             var yScale = d3.scale.linear() 
-                        .domain([0, 80])
-                        .range([height - (padding.bottom + 10), padding.top]);
+                        .domain([0, 100])
+                        .range([0, height - padding.bottom]);
 
             var xAxis = d3.svg.axis()
                         .scale(xScale)
                         .orient("bottom")
-                        .ticks(7)
+                        .ticks(12)
                         .tickFormat(function (d) {
 
-                            return days[d];
+                            return months[d];
                         });
 
             var stage = d3.select( '.chart--twitter-month' )
@@ -208,6 +223,9 @@ define([
                             "height": height
                         })
                         .classed("stage stage--twitter-month", true);
+
+            
+
 
             stage.selectAll("rect.bar-background")
                        .data(dataset)
@@ -224,7 +242,7 @@ define([
                        .attr("width", width / dataset.length - padding.bar)
                        .attr("height", function (d, i) {
 
-                            return height;
+                            return height - padding.bottom;
                        })
                        .attr("class", "bar-background")
                        .attr("fill", "red");
@@ -239,7 +257,7 @@ define([
                        })
                        .attr("y", function (d, i) {
 
-                            return height - yScale(d[1]);
+                            return height - yScale(d[1]) - padding.bottom;
                        })
                        .attr("width", width / dataset.length - padding.bar)
                        .attr("height", function (d, i) {
@@ -247,6 +265,20 @@ define([
                             return yScale(d[1]);
                        })
                        .attr("class", "bar-content");
+
+            stage.selectAll("text")
+                        .data(dataset)
+                        .enter()
+                        .append("text")
+                        .text(function (d) {
+                            return months[d[0]];
+                        })
+                        .attr("x", function(d, i) {
+                            return i * (width / dataset.length) + 8;
+                        })
+                        .attr("y", function(d) {
+                            return height;
+                        });
         },
 
     });
