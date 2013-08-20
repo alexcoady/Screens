@@ -1,141 +1,104 @@
-{
-  "id": 276113467,
-  "id_str": "276113467",
-  "name": "Alex Coady",
-  "screen_name": "coadycodes",
-  "location": "London, UK",
-  "description": "Boy wonder & JavaScript developer @ThisIsZone.",
-  "url": "http://t.co/Ht9IoCKCdU",
-  "entities": {
-    "url": {
-      "urls": [
-        {
-          "url": "http://t.co/Ht9IoCKCdU",
-          "expanded_url": "http://coady.me",
-          "display_url": "coady.me",
-          "indices": [
-            0,
-            22
-          ]
-        }
-      ]
-    },
-    "description": {
-      "urls": []
-    }
-  },
-  "protected": false,
-  "followers_count": 45,
-  "friends_count": 38,
-  "listed_count": 1,
-  "created_at": "Sat Apr 02 17:41:12 +0000 2011",
-  "favourites_count": 9,
-  "utc_offset": 3600,
-  "time_zone": "Casablanca",
-  "geo_enabled": true,
-  "verified": false,
-  "statuses_count": 494,
-  "lang": "en",
-  "status": {
-    "created_at": "Sun Aug 18 22:39:50 +0000 2013",
-    "id": 369227162475167740,
-    "id_str": "369227162475167744",
-    "text": "Finally got around to reading the http://t.co/kk7G4tovmr documentation. Was expecting wild new ideas, got exactly what we've been using.",
-    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
-    "truncated": false,
-    "in_reply_to_status_id": null,
-    "in_reply_to_status_id_str": null,
-    "in_reply_to_user_id": null,
-    "in_reply_to_user_id_str": null,
-    "in_reply_to_screen_name": null,
-    "geo": {
-      "type": "Point",
-      "coordinates": [
-        51.49519607,
-        -0.19003777
-      ]
-    },
-    "coordinates": {
-      "type": "Point",
-      "coordinates": [
-        -0.19003777,
-        51.49519607
-      ]
-    },
-    "place": {
-      "id": "9fea7e42e33c2145",
-      "url": "https://api.twitter.com/1.1/geo/id/9fea7e42e33c2145.json",
-      "place_type": "city",
-      "name": "Kensington and Chelsea",
-      "full_name": "Kensington and Chelsea, London",
-      "country_code": "GB",
-      "country": "United Kingdom",
-      "bounding_box": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -0.2285663,
-              51.477157
-            ],
-            [
-              -0.1497908,
-              51.477157
-            ],
-            [
-              -0.1497908,
-              51.5303498
-            ],
-            [
-              -0.2285663,
-              51.5303498
-            ]
-          ]
-        ]
-      },
-      "attributes": {}
-    },
-    "contributors": null,
-    "retweet_count": 0,
-    "favorite_count": 0,
-    "entities": {
-      "hashtags": [],
-      "symbols": [],
-      "urls": [
-        {
-          "url": "http://t.co/kk7G4tovmr",
-          "expanded_url": "http://smacss.com/",
-          "display_url": "smacss.com",
-          "indices": [
-            34,
-            56
-          ]
-        }
-      ],
-      "user_mentions": []
-    },
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "en"
-  },
-  "contributors_enabled": false,
-  "is_translator": false,
-  "profile_background_color": "C0DEED",
-  "profile_background_image_url": "http://a0.twimg.com/images/themes/theme1/bg.png",
-  "profile_background_image_url_https": "https://si0.twimg.com/images/themes/theme1/bg.png",
-  "profile_background_tile": false,
-  "profile_image_url": "http://a0.twimg.com/profile_images/378800000247490596/3d36a620308fc330828182802aba9db6_normal.png",
-  "profile_image_url_https": "https://si0.twimg.com/profile_images/378800000247490596/3d36a620308fc330828182802aba9db6_normal.png",
-  "profile_banner_url": "https://pbs.twimg.com/profile_banners/276113467/1375746290",
-  "profile_link_color": "0084B4",
-  "profile_sidebar_border_color": "C0DEED",
-  "profile_sidebar_fill_color": "DDEEF6",
-  "profile_text_color": "333333",
-  "profile_use_background_image": true,
-  "default_profile": true,
-  "default_profile_image": false,
-  "following": true,
-  "follow_request_sent": false,
-  "notifications": false
+{ 
+    "id": 109271138, 
+    "id_str": "109271138", 
+    "name": "Zone", 
+    "screen_name": "ThisisZone", 
+    "location": "London, UK", 
+    "description": "Zone is an independent digital agency that helps great brands thrive in a digital world.", 
+    "url": "http://t.co/gpN2xGzA91", 
+    "entities": { 
+        "url": { 
+            "urls": [ 
+                { 
+                    "url": "http://t.co/gpN2xGzA91", 
+                    "expanded_url": "http://www.ThisisZone.com", 
+                    "display_url": "ThisisZone.com", 
+                    "indices": [ 
+                        0, 
+                        22 
+                    ] 
+                } 
+            ] 
+        }, 
+        "description": { 
+            "urls": [] 
+        } 
+    }, 
+    "protected": false, 
+    "followers_count": 1515, 
+    "friends_count": 542, 
+    "listed_count": 81, 
+    "created_at": "Thu Jan 28 14:15:37 +0000 2010", 
+    "favourites_count": 12, 
+    "utc_offset": 3600, 
+    "time_zone": "London", 
+    "geo_enabled": false, 
+    "verified": false, 
+    "statuses_count": 2940, 
+    "lang": "en", 
+    "status": { 
+        "created_at": "Tue Aug 20 14:02:58 +0000 2013", 
+        "id": 369821867038629900, 
+        "id_str": "369821867038629889", 
+        "text": "RIP Hollywood legend Elmore Leonard, writer of @lizawostmann's favourite one liner: \"That's a 10-gallon hat on a 20-gallon head\" #justified", 
+        "source": "<a href=\"http://www.tweetdeck.com\" rel=\"nofollow\">TweetDeck</a>", 
+        "truncated": false, 
+        "in_reply_to_status_id": null, 
+        "in_reply_to_status_id_str": null, 
+        "in_reply_to_user_id": null, 
+        "in_reply_to_user_id_str": null, 
+        "in_reply_to_screen_name": null, 
+        "geo": null, 
+        "coordinates": null, 
+        "place": null, 
+        "contributors": null, 
+        "retweet_count": 0, 
+        "favorite_count": 0, 
+        "entities": { 
+            "hashtags": [ 
+                { 
+                    "text": "justified", 
+                    "indices": [ 
+                        129, 
+                        139 
+                    ] 
+                } 
+            ], 
+            "symbols": [], 
+            "urls": [], 
+            "user_mentions": [ 
+                { 
+                    "screen_name": "lizawostmann", 
+                    "name": "lizawostmann", 
+                    "id": 14830464, 
+                    "id_str": "14830464", 
+                    "indices": [ 
+                        47, 
+                        60 
+                    ] 
+                } 
+            ] 
+        }, 
+        "favorited": false, 
+        "retweeted": false, 
+        "lang": "en" 
+    }, 
+    "contributors_enabled": false, 
+    "is_translator": false, 
+    "profile_background_color": "FFC222", 
+    "profile_background_image_url": "http://a0.twimg.com/profile_background_images/595605674/5vh0ntaj228jh6oty9xa.jpeg", 
+    "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/595605674/5vh0ntaj228jh6oty9xa.jpeg", 
+    "profile_background_tile": true, 
+    "profile_image_url": "http://a0.twimg.com/profile_images/2328229015/ce7evuievtn69z9eyq9y_normal.png", 
+    "profile_image_url_https": "https://si0.twimg.com/profile_images/2328229015/ce7evuievtn69z9eyq9y_normal.png", 
+    "profile_link_color": "009999", 
+    "profile_sidebar_border_color": "EEEEEE", 
+    "profile_sidebar_fill_color": "EFEFEF", 
+    "profile_text_color": "333333", 
+    "profile_use_background_image": true, 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "following": true, 
+    "follow_request_sent": false, 
+    "notifications": false 
 }

@@ -1,0 +1,25 @@
+/*
+*	Stats
+*	
+*	Example HTML:
+*
+*	<div class="stat">
+*		<span class="stat__value">Value</span>
+*		<span class="stat__title">Title</span>
+*	</div>
+*/
+
+.stat {
+	display: block;
+	float: left;
+}
+
+.stat .stat__value {
+	display: block;
+	font-size: 4em;
+}
+
+.stat .stat__title {
+	display: block;
+	color: $color-grey-med;
+}

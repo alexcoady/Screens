@@ -23,7 +23,7 @@ define([
 
         render: function renderFn () {
 
-        	var sectionTwitter = new SectionTwitterModel({ type: "twitter", title: "Twitter" }),
+        	var sectionTwitter = new SectionTwitterModel({ type: "twitter", title: "@ThisIsZone" }),
         		sectionDates = new SectionModel({ type: "dates", title: "Dates" }),
         		sectionTeam = new SectionModel({ type: "team", title: "Team" }),
         		sectionPoll = new SectionModel({ type: "poll", title: "Poll" }),

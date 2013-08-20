@@ -6,6 +6,19 @@
 
 /* ------- COLOURS - DEFINITION --------------------------- */
 
+$color-indigo: 			#424297;
+$color-magenta: 		#EE3D96;
+$color-cyan: 			#21A5DE;
+$color-yellow:			#FAC312;
+$color-torquoise: 		#00B0A9;
+$color-orange:			#F78E26;
+$color-green:			#22B372;
+$color-red: 			#D1174C;
+
+$color-grey-pale:		#F0F0EE;
+$color-grey-med:		#969694;
+$color-grey-dark:		#323230;
+
 /* ------- COLOURS - CONTEXT ------------------------------ */
 
 
@@ -16,11 +29,11 @@
 
 /* ------- FONTS - DEFINITION ----------------------------- */
 
-$font-default: 'Serifa W01 Light';
-$font-default-italic: 'Serifa W01 Light Italic';
-$font-default-bold: 'Serifa W01 Bold';
-$font-special: 'FrutigerLTW01-45Light';
-$font-special-bold: 'Frutiger LT W01 65 Bold';
+$font-default: 			'Serifa W01 Light';
+$font-default-italic: 	'Serifa W01 Light Italic';
+$font-default-bold: 	'Serifa W01 Bold';
+$font-special: 			'FrutigerLTW01-45Light';
+$font-special-bold: 	'Frutiger LT W01 65 Bold';
 
 /* ------- FONTS - CONTEXT -------------------------------- */
 
@@ -29,4 +42,4 @@ $font-special-bold: 'Frutiger LT W01 65 Bold';
 /* ------- SPACING ---------------------------------------- */
 /* -------------------------------------------------------- */
 
-$spacing:									20px;
+$spacing:									10px;

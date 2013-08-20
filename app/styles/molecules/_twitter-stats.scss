@@ -1,0 +1,41 @@
+/*
+*	Twitter stats
+*
+*	Example HTML:
+*
+*	<div class="stats stats--twitter-user">
+*		<div class="stats__item">
+*			<span class="stats__value">Value</span>
+*			<span class="stats__title">Title</span>
+*		</div>
+*		
+*		<div class="stats__item">
+*			<span class="stats__value">Value</span>
+*			<span class="stats__title">Title</span>
+*		</div>
+*	</div>
+*/
+
+.stats {
+	@include clearfix;
+}
+
+.stats .stats__item {
+	display: block;
+	float: left;
+	width: 33%;
+	// margin-right: $spacing * 4;
+
+	// &:last-child {
+	// 	margin-right: 0;
+	// }
+}
+
+.stats .stats__item .stats__value {
+	display: block;
+	font-size: 5em;
+}
+
+.stats .stats__item .stats__title {
+	display: block;
+}

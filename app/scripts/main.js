@@ -16,12 +16,16 @@ require.config({
         bootstrap: {
             deps: ['jquery'],
             exports: 'jquery'
+        },
+        d3: {
+            exports: 'd3'
         }
     },
     paths: {
         jquery: '../components/jquery/jquery',
         backbone: '../components/backbone-amd/backbone',
         underscore: '../components/underscore-amd/underscore',
+        d3: '../components/d3/d3',
         bootstrap: 'vendor/bootstrap'
     }
 });

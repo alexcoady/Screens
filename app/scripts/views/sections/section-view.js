@@ -18,7 +18,7 @@ define([
 
         initialize: function initializeFn () {
 
-            this.$el.addClass( "section-" + this.model.get("type") );
+            this.$el.addClass( "section--" + this.model.get("type") );
             this.model.on("change", this.render, this);
         },
 

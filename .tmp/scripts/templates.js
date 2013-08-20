@@ -96,17 +96,19 @@ this["JST"]["app/scripts/templates/sections/section-twitter.ejs"] = function(obj
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<div class="inner">\n\t\n\t<header class="header">\n\t\t<h2 class="heading">' +
+__p += '<div class="inner">\n\n\t<div class="content content--stats">\n\t\t<header class="header">\n\t\t\t<h2 class="heading">' +
 ((__t = ( title )) == null ? '' : __t) +
-'</h2>\n\t</header><!-- /header -->\n\n\t<section class="chart"></section>\n\t<section class="chart"></section>\n\n\t<section class="twitter__user">\n\t\t<section class="tweet">\n\t\t\t<span class="text">' +
+'</h2>\n\t\t</header><!-- /header -->\n\n\t\t<section class="chart chart--twitter-week"></section>\n\t\t<section class="chart chart--twitter-month"></section>\n\n\t\t<section class="tweet">\n\t\t\t<p class="tweet__text">' +
 ((__t = ( status.text )) == null ? '' : __t) +
-'</span>\n\t\t</section>\n\n\t\t<span class="value">' +
+'</p>\n\t\t\t<span class="tweet__location">' +
+((__t = ( status.place !== null ? status.place.name : "" )) == null ? '' : __t) +
+'</span>\n\t\t</section>\n\t</div>\n\t\n\t<div class="content content--stats content--highlight">\n\t\t<section class="stats stats--twitter">\n\n\t\t\t<div class="stat">\n\t\t\t\t<span class="stat__value">' +
 ((__t = ( statuses_count )) == null ? '' : __t) +
-'</span>\n\t\t<span class="title">Tweets</span>\n\n\t\t<span class="value">' +
+'</span>\n\t\t\t\t<span class="stat__title">Tweets</span>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class="stat">\n\t\t\t\t<span class="stat__value">' +
 ((__t = ( followers_count )) == null ? '' : __t) +
-'</span>\n\t\t<span class="title">Followers</span>\n\n\t\t<span class="value">' +
+'</span>\n\t\t\t\t<span class="stat__title">Followers</span>\n\t\t\t</div>\n\n\t\t\t<div class="stat">\n\t\t\t\t<span class="stat__value">' +
 ((__t = ( favourites_count )) == null ? '' : __t) +
-'</span>\n\t\t<span class="title">Favorites</span>\n\n\t</section>\n\n</div>';
+'</span>\n\t\t\t\t<span class="stat__title">Favorites</span>\n\t\t\t</div>\n\t\t</section>\n\n\t</div>\n\n\t\n\n</div>';
 
 }
 return __p
@@ -119,16 +121,6 @@ with (obj) {
 __p += '<div class="inner">\n\t<header class="header">\n\t\t<h2 class="heading">' +
 ((__t = ( title )) == null ? '' : __t) +
 '</h2>\n\t</header><!-- /header -->\n</div>';
-
-}
-return __p
-};
-
-this["JST"]["app/scripts/templates/sections/twitter/twitter-user.ejs"] = function(obj) {
-obj || (obj = {});
-var __t, __p = '', __e = _.escape;
-with (obj) {
-__p += '';
 
 }
 return __p

@@ -1,26 +1,40 @@
 <div class="inner">
-	
-	<header class="header">
-		<h2 class="heading"><%= title %></h2>
-	</header><!-- /header -->
 
-	<section class="chart"></section>
-	<section class="chart"></section>
+	<div class="content content--stats">
+		<header class="header">
+			<h2 class="heading"><%= title %></h2>
+		</header><!-- /header -->
 
-	<section class="twitter__user">
+		<section class="chart chart--twitter-week"></section>
+		<section class="chart chart--twitter-month"></section>
+
 		<section class="tweet">
-			<span class="text"><%= status.text %></span>
+			<p class="tweet__text"><%= status.text %></p>
+			<span class="tweet__location"><%= status.place !== null ? status.place.name : "" %></span>
+		</section>
+	</div>
+	
+	<div class="content content--stats content--highlight">
+		<section class="stats stats--twitter">
+
+			<div class="stat">
+				<span class="stat__value"><%= statuses_count %></span>
+				<span class="stat__title">Tweets</span>
+			</div>
+			
+			<div class="stat">
+				<span class="stat__value"><%= followers_count %></span>
+				<span class="stat__title">Followers</span>
+			</div>
+
+			<div class="stat">
+				<span class="stat__value"><%= favourites_count %></span>
+				<span class="stat__title">Favorites</span>
+			</div>
 		</section>
 
-		<span class="value"><%= statuses_count %></span>
-		<span class="title">Tweets</span>
+	</div>
 
-		<span class="value"><%= followers_count %></span>
-		<span class="title">Followers</span>
-
-		<span class="value"><%= favourites_count %></span>
-		<span class="title">Favorites</span>
-
-	</section>
+	
 
 </div>
