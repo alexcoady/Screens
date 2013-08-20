@@ -98,7 +98,15 @@ var __t, __p = '', __e = _.escape;
 with (obj) {
 __p += '<div class="inner">\n\t\n\t<header class="header">\n\t\t<h2 class="heading">' +
 ((__t = ( title )) == null ? '' : __t) +
-'</h2>\n\t</header><!-- /header -->\n\n\t<section class="chart"></section>\n\t<section class="chart"></section>\n\n\t<section class="twitter__user"></section>\n\n</div>';
+'</h2>\n\t</header><!-- /header -->\n\n\t<section class="chart"></section>\n\t<section class="chart"></section>\n\n\t<section class="twitter__user">\n\t\t<section class="tweet">\n\t\t\t<span class="text">' +
+((__t = ( status.text )) == null ? '' : __t) +
+'</span>\n\t\t</section>\n\n\t\t<span class="value">' +
+((__t = ( statuses_count )) == null ? '' : __t) +
+'</span>\n\t\t<span class="title">Tweets</span>\n\n\t\t<span class="value">' +
+((__t = ( followers_count )) == null ? '' : __t) +
+'</span>\n\t\t<span class="title">Followers</span>\n\n\t\t<span class="value">' +
+((__t = ( favourites_count )) == null ? '' : __t) +
+'</span>\n\t\t<span class="title">Favorites</span>\n\n\t</section>\n\n</div>';
 
 }
 return __p
@@ -120,15 +128,7 @@ this["JST"]["app/scripts/templates/sections/twitter/twitter-user.ejs"] = functio
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<section class="tweet">\n\t<span class="text">' +
-((__t = ( status.text )) == null ? '' : __t) +
-'</span>\n</section>\n\n<span class="value">' +
-((__t = ( statuses_count )) == null ? '' : __t) +
-'</span>\n<span class="title">Tweets</span>\n\n<span class="value">' +
-((__t = ( followers_count )) == null ? '' : __t) +
-'</span>\n<span class="title">Followers</span>\n\n<span class="value">' +
-((__t = ( favourites_count )) == null ? '' : __t) +
-'</span>\n<span class="title">Favorites</span>';
+__p += '';
 
 }
 return __p

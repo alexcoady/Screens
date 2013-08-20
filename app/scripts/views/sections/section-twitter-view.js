@@ -7,9 +7,8 @@ define([
     'templates',
     'views/sections/section-view',
     'models/twitter-user-model',
-    'views/sections/twitter/twitter-user-view',
 
-], function ($, _, Backbone, JST, SectionView, TwitterUserModel, TwitterUserView) {
+], function ($, _, Backbone, JST, SectionView, TwitterUserModel) {
     'use strict';
 
     var SectionTwitterView = SectionView.extend({
@@ -23,26 +22,11 @@ define([
 
         render: function renderFn () {
 
+            // Stops render if model isn't ready yet
+            // Will be rendered on model change anyway
+            if ( this.model.get("statuses_count") === undefined ) return this;
+
             var that = SectionView.prototype.render.apply(this, arguments);
-
-            var twitterUser = new TwitterUserModel(),
-                twitterUserView = new TwitterUserView({ 
-                    model: twitterUser, 
-                    $el: that.$('.twitter__user') 
-                });
-            
-            twitterUser.fetch({
-                "success": function () {
-
-                    that.$('.twitter__user').html( twitterUserView.render().el );
-                }
-            });
-
-
-
-
-            
-
 
             return that;
         }

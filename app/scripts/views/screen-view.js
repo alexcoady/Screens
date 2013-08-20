@@ -6,9 +6,10 @@ define([
     'backbone',
     'templates',
     'models/section-model',
+    'models/section-twitter-model',
     'collections/section-collection',
     'views/section-collection-view',
-], function ($, _, Backbone, JST, SectionModel, SectionCollection, SectionCollectionView) {
+], function ($, _, Backbone, JST, SectionModel, SectionTwitterModel, SectionCollection, SectionCollectionView) {
     'use strict';
 
     var ScreenView = Backbone.View.extend({
@@ -22,7 +23,7 @@ define([
 
         render: function renderFn () {
 
-        	var sectionTwitter = new SectionModel({ type: "twitter", title: "Twitter" }),
+        	var sectionTwitter = new SectionTwitterModel({ type: "twitter", title: "Twitter" }),
         		sectionDates = new SectionModel({ type: "dates", title: "Dates" }),
         		sectionTeam = new SectionModel({ type: "team", title: "Team" }),
         		sectionPoll = new SectionModel({ type: "poll", title: "Poll" }),
