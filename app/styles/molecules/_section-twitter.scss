@@ -1,0 +1,64 @@
+.section--twitter {
+	@include grid-columns(6, 4);
+	height: 930px;
+	top: 70px;
+}
+
+.section--twitter .inner {
+	background: $color-torquoise;
+}
+
+.section--twitter .content--charts {
+	height: 470px - ($spacing * 3);
+}
+
+.section--twitter .tweet {
+	height: 170px - ($spacing * 3);
+	position: relative;
+}
+
+.section--twitter .tweet .icon {
+	font-size: 2em;
+	position: absolute;
+	bottom: $spacing * 2;
+	color: $color-torquoise-bright;
+}
+
+.section--twitter .chart--twitter-week {
+	height: 270px;
+	margin-bottom: $spacing * 4;
+	margin-top: $spacing;
+}
+
+.section--twitter .chart--twitter-month {
+	height: 88px;
+}
+
+.section--twitter .content--twitter-stats {
+	height: 230px - ($spacing * 3);
+	position: relative;
+
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: white;
+		top: -10px;
+		left: $spacing * 2.5;
+
+		@include transform(rotate(45deg));
+	}
+}
+
+.section--twitter .stats .stats__item {
+	width: 33%;
+	padding-bottom: $spacing * 2;
+	margin-bottom: $spacing * 2;
+	border-bottom: 1px solid #CCCCCC;
+
+	&:nth-child(n + 4) {
+		border-bottom: 0 none;
+	}
+}

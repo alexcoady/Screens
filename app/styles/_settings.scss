@@ -10,7 +10,10 @@ $color-indigo: 			#424297;
 $color-magenta: 		#EE3D96;
 $color-cyan: 			#21A5DE;
 $color-yellow:			#FAC312;
+
 $color-torquoise: 		#00B0A9;
+$color-torquoise-bright:#17FFF6;
+
 $color-orange:			#F78E26;
 $color-green:			#22B372;
 $color-red: 			#D1174C;
@@ -21,6 +24,9 @@ $color-grey-dark:		#323230;
 
 /* ------- COLOURS - CONTEXT ------------------------------ */
 
+$color-for-countdown:	$color-indigo;
+$color-for-news:		$color-red;
+$color-for-twitter:		$color-torquoise;
 
 
 /* -------------------------------------------------------- */
@@ -29,11 +35,11 @@ $color-grey-dark:		#323230;
 
 /* ------- FONTS - DEFINITION ----------------------------- */
 
-$font-default: 			'Serifa W01 Light';
-$font-default-italic: 	'Serifa W01 Light Italic';
-$font-default-bold: 	'Serifa W01 Bold';
-$font-special: 			'FrutigerLTW01-45Light';
-$font-special-bold: 	'Frutiger LT W01 65 Bold';
+$font-special: 			'Serifa W01 Light';
+$font-special-italic: 	'Serifa W01 Light Italic';
+$font-special-bold: 	'Serifa W01 Bold';
+$font-default: 			'FrutigerLTW01-45Light';
+$font-default-bold: 	'Frutiger LT W01 65 Bold';
 
 /* ------- FONTS - CONTEXT -------------------------------- */
 

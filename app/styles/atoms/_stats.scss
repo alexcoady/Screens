@@ -3,23 +3,26 @@
 *	
 *	Example HTML:
 *
-*	<div class="stat">
+*	<div class="stats__item">
 *		<span class="stat__value">Value</span>
 *		<span class="stat__title">Title</span>
 *	</div>
 */
 
-.stat {
+.stats__item {
 	display: block;
 	float: left;
 }
 
-.stat .stat__value {
+.stats__item .stat__value {
 	display: block;
-	font-size: 4em;
+	font-size: 2.5em;
 }
 
-.stat .stat__title {
+.stats__item .stat__title {
 	display: block;
+	margin-top: 2px;
 	color: $color-grey-med;
+	font-size: 0.75em;
+	text-transform: uppercase;
 }

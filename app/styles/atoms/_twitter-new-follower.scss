@@ -1,0 +1,33 @@
+.twitter-user {
+	float: left;
+	width: 66%;
+}
+
+.twitter-user .twitter-user__avatar {
+	float: left;
+	width: 73px;
+	height: 73px;
+}
+
+.twitter-user .twitter-user__avatar img {
+	width: 100%;
+	height: auto;
+}
+
+.twitter-user .twitter-user__desc {
+	float: left;
+	width: 193px;
+	margin-left: $spacing;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	color: $color-grey-med;
+}
+
+.twitter-user .twitter-user__desc .text {
+	
+}
+
+.twitter-user .twitter-user__desc .link {
+	color: $color-for-twitter;
+	text-decoration: none;
+}

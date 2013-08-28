@@ -24,17 +24,15 @@ define([
         render: function renderFn () {
 
         	var sectionTwitter = new SectionTwitterModel({ type: "twitter", title: "@ThisIsZone" }),
-        		sectionDates = new SectionModel({ type: "dates", title: "Dates" }),
         		sectionTeam = new SectionModel({ type: "team", title: "Team" }),
         		sectionPoll = new SectionModel({ type: "poll", title: "Poll" }),
         		sectionCountdown = new SectionModel({ type: "countdown", title: "Countdown" }),
-                sectionNews = new SectionModel({ type: "news", title: "News" }),
+                sectionNews = new SectionModel({ type: "news", title: "Most popular today" }),
                 sectionTicker = new SectionModel({ type: "ticker", title: "Ticker" });
         	
-        	var sectionCollection = new SectionCollection();
+        	var sectionCollection = SectionCollection.getInstance();
 
         	sectionCollection.add(sectionTwitter);
-        	sectionCollection.add(sectionDates);
         	sectionCollection.add(sectionTeam);
         	sectionCollection.add(sectionPoll);
         	sectionCollection.add(sectionCountdown);
@@ -44,6 +42,8 @@ define([
         	var sectionCollectionView = new SectionCollectionView({ collection: sectionCollection });
 
         	this.$el.html( sectionCollectionView.render().el );
+
+            sectionCollection.trigger("renderingComplete");
 
         	return this;
         }

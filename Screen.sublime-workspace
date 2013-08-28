@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"x",
+				"xAxis"
+			],
+			[
 				"marg",
 				"margin-top"
 			],
@@ -250,10 +258,6 @@
 			[
 				"pad",
 				"padding"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"fot",
@@ -510,44 +514,16 @@
 			[
 				"ev",
 				"events"
-			],
-			[
-				"sta",
-				"status"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/scripts/templates/sections/section-ticker.ejs",
+			"file": "app/styles/atoms/_charts.scss",
 			"settings":
 			{
-				"buffer_size": 118,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/views/screen-view.js",
-			"settings":
-			{
-				"buffer_size": 1714,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/scripts/templates/sections/section-countdown.ejs",
-			"settings":
-			{
-				"buffer_size": 119,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/main.scss",
-			"settings":
-			{
-				"buffer_size": 4725,
+				"buffer_size": 497,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +531,95 @@
 			"file": "app/styles/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 852,
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/atoms/_tweets.scss",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/json/example-twitter.json",
+			"settings":
+			{
+				"buffer_size": 3690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/atoms/_screen.scss",
+			"settings":
+			{
+				"buffer_size": 174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/quarks/_headings.scss",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/atoms/_stats.scss",
+			"settings":
+			{
+				"buffer_size": 314,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/atoms/_sections.scss",
+			"settings":
+			{
+				"buffer_size": 3021,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/views/sections/section-twitter-view.js",
+			"settings":
+			{
+				"buffer_size": 8876,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/quarks/_body.scss",
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/views/screen-view.js",
+			"settings":
+			{
+				"buffer_size": 1782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/templates/sections/section-twitter.ejs",
+			"settings":
+			{
+				"buffer_size": 1011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 531,
 				"line_ending": "Unix"
 			}
 		}
@@ -563,12 +627,20 @@
 	"build_system": "Packages/JSLint/JSLint.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 203.0,
 		"selected_items":
 		[
 			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
 				"lor",
-				"LoremIpsum: (30) lots"
+				"LoremIpsum: (15) some"
 			],
 			[
 				"loru",
@@ -615,7 +687,7 @@
 				"Package Control: Enable Package"
 			]
 		],
-		"width": 561.0
+		"width": 566.0
 	},
 	"console":
 	{
@@ -632,19 +704,42 @@
 	},
 	"file_history":
 	[
+		"/Users/alexcoady/Sites/Screen/app/scripts/json/example-twitter.json",
+		"/Users/alexcoady/Sites/Screen/app/styles/atoms/_stats.cs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/section-collection-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/main.js",
+		"/Users/alexcoady/Sites/Screen/app/styles/_settings.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/main.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-twitter-view.js",
+		"/Users/alexcoady/Sites/Screen/app/styles/molecules/_twitter-stats.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/atoms/_tweets.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/atomic.md",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-news.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-twitter.ejs",
+		"/Users/alexcoady/Sites/Screen/app/scripts/models/section-twitter-model.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/screen-view.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-view.js",
+		"/Users/alexcoady/Sites/Screen/.sass-cache/d2c792cb52f5094d4558f2639e7d9f44b2812d27/main.scssc",
+		"/Users/alexcoady/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/alexcoady/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/alexcoady/Sites/Screen/app/scripts/models/twitter-user-model.js",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/twitter/twitter-user.ejs",
+		"/Users/alexcoady/Sites/Screen/app/styles/quarks/_headings.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/quarks/_paragraph.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/atoms/_section.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/atoms/_screen.scss",
+		"/Users/alexcoady/Sites/Screen/app/styles/quarks/_body.scss",
+		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-ticker.ejs",
 		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-countdown.ejs",
 		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-dates.ejs",
-		"/Users/alexcoady/Sites/Screen/app/scripts/views/section-collection-view.js",
 		"/Users/alexcoady/Sites/Screen/app/scripts/views/section-view.js",
 		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-ticker-view.js",
-		"/Users/alexcoady/Sites/Screen/app/scripts/views/screen-view.js",
-		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-twitter.ejs",
 		"/Users/alexcoady/Sites/Screen/app/index.html",
 		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-countdown-view.js",
 		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-news-ticker.js",
-		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-news.ejs",
 		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-team.ejs",
-		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-ticker.ejs",
 		"/Users/alexcoady/Sites/Screen/app/scripts/templates/sections/section-poll.ejs",
 		"/Users/alexcoady/Sites/Screen/app/scripts/templates/section.ejs",
 		"/Users/alexcoady/Sites/Screen/Gruntfile.js",
@@ -652,11 +747,7 @@
 		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-news-view.js",
 		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-poll-view.js",
 		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-team-view.js",
-		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-twitter-view.js",
-		"/Users/alexcoady/Sites/Screen/app/scripts/views/sections/section-view.js",
-		"/Users/alexcoady/Sites/Screen/app/styles/_settings.scss",
 		"/Users/alexcoady/Sites/Screen/app/scripts/models/section-model.js",
-		"/Users/alexcoady/Sites/Screen/app/scripts/main.js",
 		"/Users/alexcoady/Sites/Screen/app/scripts/collections/section-collection.js",
 		"/Users/alexcoady/Sites/Screen/app/scripts/templates/screen.ejs",
 		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_self-assessment.scss",
@@ -723,7 +814,6 @@
 		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_article_old.scss",
 		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/forms.scss",
 		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/sass/_widgets.cscc",
-		"/Users/alexcoady/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/alexcoady/Desktop/we.we",
 		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Views/Partials/_Breadcrumb.cshtml",
 		"/Volumes/Users/Tim Reed/Documents/Sites/CPSU/NSPCC.WebUI/Infrastructure/Helpers/GlobalFunctions.cs",
@@ -741,25 +831,7 @@
 		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_common-elements.scss",
 		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_mixins.scss",
 		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/global.scss",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_filters.scss",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/js/site.js",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_navigation.scss",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/css/global.css",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_articles.scss",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/archive-staff.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-carousel.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/archive-news.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-news.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/css/global-min.css",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/form-filter.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/page-services.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/functions.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_typography.scss",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/js/global.js",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-staff.php",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/js/libs/jquery.flexslider-min.js",
-		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/content-client.php",
-		"/Users/alexcoady/Sites/Zone/wp-includes/js/jquery/jquery.js"
+		"/Users/alexcoady/Sites/Zone/wp-content/themes/zone/sass/_filters.scss"
 	],
 	"find":
 	{
@@ -788,6 +860,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			", ",
+			"week",
+			" > .inner {",
+			"stats__item",
+			"stats__value",
+			"p",
+			"span",
+			"stats_item",
+			"underscore",
+			".section-",
+			"p",
+			"body",
+			"##",
 			"CountdownVie",
 			"line-he",
 			"font-family:",
@@ -902,20 +987,7 @@
 			".homepage .standard",
 			"cta",
 			"4%",
-			"$dim-vertical-spacing",
-			"active",
-			"2000",
-			"all 1s ease-in-out;",
-			"5deg",
-			" translateX(0px) translateY(0px) skewX(0deg) skewY(0deg)",
-			"scale() ",
-			"'.article'",
-			"Topic",
-			"generic-article",
-			"$(this)",
-			"filter-options",
-			"Filter",
-			".document-filter"
+			"$dim-vertical-spacing"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -957,28 +1029,29 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/scripts/templates/sections/section-ticker.ejs",
+					"file": "app/styles/atoms/_charts.scss",
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								281,
+								281
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/EJS/EJS_alternative.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -988,18 +1061,263 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/scripts/views/screen-view.js",
+					"file": "app/styles/_settings.scss",
 					"settings":
 					{
-						"buffer_size": 1714,
+						"buffer_size": 1368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1076,
-								1076
+								440,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/styles/atoms/_tweets.scss",
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/json/example-twitter.json",
+					"settings":
+					{
+						"buffer_size": 3690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3690,
+								3690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/styles/atoms/_screen.scss",
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/styles/quarks/_headings.scss",
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/styles/atoms/_stats.scss",
+					"settings":
+					{
+						"buffer_size": 314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/styles/atoms/_sections.scss",
+					"settings":
+					{
+						"buffer_size": 3021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2329,
+								2329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1407.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "app/scripts/views/sections/section-twitter-view.js",
+					"settings":
+					{
+						"buffer_size": 8876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6205,
+								6205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3297.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/styles/quarks/_body.scss",
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/scripts/views/screen-view.js",
+					"settings":
+					{
+						"buffer_size": 1782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								477
 							]
 						],
 						"settings":
@@ -1015,56 +1333,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/scripts/templates/sections/section-countdown.ejs",
+					"buffer": 11,
+					"file": "app/scripts/templates/sections/section-twitter.ejs",
 					"settings":
 					{
-						"buffer_size": 119,
+						"buffer_size": 1011,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								119,
-								119
+								1011,
+								1011
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/EJS/EJS_alternative.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "app/styles/main.scss",
-					"settings":
-					{
-						"buffer_size": 4725,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1603,
-								1603
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/EJS/EJS_alternative.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1074,24 +1360,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/styles/_settings.scss",
+					"buffer": 12,
+					"file": "app/styles/main.scss",
 					"settings":
 					{
-						"buffer_size": 852,
+						"buffer_size": 531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								852,
-								852
+								531,
+								531
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1130,7 +1417,7 @@
 		"cols":
 		[
 			0.0,
-			0.528276225263,
+			0.366549744898,
 			1.0
 		],
 		"rows":
@@ -1158,6 +1445,34 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"et",
+				"app/scripts/json/example-twitter.json"
+			],
+			[
+				"main",
+				"app/styles/main.scss"
+			],
+			[
+				"sw.ej",
+				"app/scripts/templates/sections/section-twitter.ejs"
+			],
+			[
+				"charts",
+				"app/styles/atoms/_charts.scss"
+			],
+			[
+				"section-tw",
+				"app/scripts/templates/sections/section-twitter.ejs"
+			],
+			[
+				"main.s",
+				"app/styles/main.scss"
+			],
+			[
+				"sectio",
+				"app/scripts/templates/sections/section-twitter.ejs"
+			],
 			[
 				"globa",
 				"sass/global.scss"

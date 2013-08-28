@@ -1,0 +1,46 @@
+.section--news {}
+
+.section--news .figure {
+	width: 100%;
+	margin-bottom: $spacing;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.section--news .news__info {
+	display: block;
+	margin-bottom: $spacing;
+
+	text-transform: uppercase;
+	font-size: 0.8em;
+
+	&:last-of-type {
+		margin-bottom: $spacing * 2;
+	}
+}
+
+.section--news .entry-content {
+	height: 640px;
+	position: relative;
+	overflow: hidden;
+}
+
+.section--news .entry-content .scroll {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	@include transition(top 3000);
+}
+
+.section--news .entry-content h3 {
+	font-size: 1.5em;
+	margin-bottom: $spacing;
+}
+
+.section--news .entry-content p {
+	font-size: 1.1em;
+}

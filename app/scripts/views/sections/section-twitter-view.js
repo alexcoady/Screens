@@ -73,7 +73,7 @@ define([
             var padding = {
                 top: 10,
                 right: 40,
-                bottom: 40,
+                bottom: 25,
                 left: 40
             };
 
@@ -191,9 +191,9 @@ define([
             var padding = {
                 top: 0,
                 right: 0,
-                bottom: 20,
+                bottom: 26,
                 left: 0,
-                bar: 15
+                bar: 12
             };
 
             var width = this.$('.chart--twitter-month').width(),
@@ -233,7 +233,7 @@ define([
                        .append("rect")
                        .attr("x", function (d, i) {
 
-                            return i * (width / dataset.length);
+                            return i * ((width + padding.bar) / dataset.length);
                        })
                        .attr("y", function (d, i) {
 
@@ -253,7 +253,7 @@ define([
                        .append("rect")
                        .attr("x", function (d, i) {
 
-                            return i * (width / dataset.length);
+                            return i * ((width + padding.bar) / dataset.length);
                        })
                        .attr("y", function (d, i) {
 
@@ -274,7 +274,7 @@ define([
                             return months[d[0]];
                         })
                         .attr("x", function(d, i) {
-                            return i * (width / dataset.length) + 8;
+                            return i * ((width + padding.bar) / dataset.length) + 5;
                         })
                         .attr("y", function(d) {
                             return height;

@@ -1,0 +1,20 @@
+$default-screen-width: 1920px;
+$default-screen-height: 1080px;
+
+$column-width: 60px;
+$gutter-width: 20px;
+
+@mixin grid-columns ($cols: 24, $push: 0) {
+
+	@if ($cols > 0) {
+		width: ($cols * $column-width) + ($cols * $gutter-width);
+	} @else {
+		width: 0;
+	}
+	
+	@if ($push > 0) {
+		left: ($push * $column-width) + ($push * $gutter-width);
+	} @else {
+		left: 0;
+	}
+}

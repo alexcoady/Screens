@@ -1,40 +1,58 @@
 <div class="inner">
 
-	<div class="content content--stats">
-		<header class="header">
-			<h2 class="heading"><%= title %></h2>
-		</header><!-- /header -->
+	<header class="header content">
+		<h2 class="heading"><%= title %></h2>
+	</header><!-- /header -->
+
+	<div class="content content--stats content--charts">
 
 		<section class="chart chart--twitter-week"></section>
 		<section class="chart chart--twitter-month"></section>
 
-		<section class="tweet">
-			<p class="tweet__text"><%= status.text %></p>
-			<span class="tweet__location"><%= status.place !== null ? status.place.name : "" %></span>
-		</section>
 	</div>
-	
-	<div class="content content--stats content--highlight">
-		<section class="stats stats--twitter">
 
-			<div class="stat">
-				<span class="stat__value"><%= statuses_count %></span>
+	<section class="tweet content content--stats content--tweet">
+		<p class="tweet__text"><%= status.text %></p>
+		<span class="tweet__location"><%= status.place !== null ? status.place.name : "" %></span>
+		<i class="icon icon-twitter"></i>
+	</section>
+	
+	<div class="content content--twitter-stats content--stats content--highlight">
+		
+		<section class="stats stats--twitter">
+			
+			<div class="stats__item">
+				<span class="stat__value key"><%= statuses_count %></span>
 				<span class="stat__title">Tweets</span>
 			</div>
 			
-			<div class="stat">
-				<span class="stat__value"><%= followers_count %></span>
+			<div class="stats__item">
+				<span class="stat__value key"><%= followers_count %></span>
 				<span class="stat__title">Followers</span>
 			</div>
 
-			<div class="stat">
-				<span class="stat__value"><%= favourites_count %></span>
+			<div class="stats__item">
+				<span class="stat__value key"><%= favourites_count %></span>
 				<span class="stat__title">Favorites</span>
 			</div>
+
+			<div class="stats__item">
+				<span class="stat__value key"><%= friends_count %></span>
+				<span class="stat__title">Following</span>
+			</div>
+
+			<div class="twitter-user">
+				<div class="twitter-user__avatar">
+					<img src="<%= profile_image_url %>" alt="" />
+				</div>
+
+				<div class="twitter-user__desc">
+					<span class="text">Hello<br /> to our latest follower</span>
+					<a class="link" href="#" title="">@<%= screen_name %></a>
+				</div>
+			</div>
+
 		</section>
-
 	</div>
-
-	
 
 </div>

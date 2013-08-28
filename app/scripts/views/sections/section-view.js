@@ -5,7 +5,8 @@ define([
     'underscore',
     'backbone',
     'templates',
-], function ($, _, Backbone, JST) {
+    'collections/section-collection',
+], function ($, _, Backbone, JST, SectionCollection) {
     'use strict';
 
     var SectionView = Backbone.View.extend({
@@ -20,13 +21,21 @@ define([
 
             this.$el.addClass( "section--" + this.model.get("type") );
             this.model.on("change", this.render, this);
+
+            this.listenTo(SectionCollection.getInstance(), "renderingComplete", this.getGoing);
         },
 
         render: function renderFn () {
 
         	var template = this.template( this.model.toJSON() );            
         	this.$el.html(template);
+
         	return this;
+        },
+
+        getGoing: function getGoingFn () {
+
+            this.log("here we go!");
         }
     });
 

@@ -1,15 +1,5 @@
 .chart {
-	// background: rgba(white, 0.2);
 	width: 100%;
-	margin-bottom: $spacing;
-}
-
-.chart--twitter-week {
-	height: 300px;
-}
-
-.chart--twitter-month {
-	height: 80px;
 }
 
 /* TODO: Move axis */
@@ -21,10 +11,9 @@
 	shape-rendering: crispEdges;
 }
 
-
- text {
+text {
 	font-family: inherit;
-	font-size: 18px;
+	font-size: 0.7em;
 	font-weight: bold;
 	fill: white;
 }
@@ -38,5 +27,5 @@
 }
 
 .bar-content {
-	fill: rgba(white, 0.7);
+	fill: $color-torquoise-bright;
 }
