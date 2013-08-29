@@ -34,8 +34,7 @@ define([
         },
 
         getGoing: function getGoingFn () {
-
-            this.log("here we go!");
+            
         }
     });
 

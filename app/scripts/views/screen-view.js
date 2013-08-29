@@ -5,8 +5,8 @@ define([
     'underscore',
     'backbone',
     'templates',
-    'models/section-model',
-    'models/section-twitter-model',
+    'models/sections/section-model',
+    'models/sections/section-twitter-model',
     'collections/section-collection',
     'views/section-collection-view',
 ], function ($, _, Backbone, JST, SectionModel, SectionTwitterModel, SectionCollection, SectionCollectionView) {

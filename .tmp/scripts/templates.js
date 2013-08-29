@@ -80,13 +80,25 @@ __p += '<div class="inner">\n\t<header class="header">\n\t\t<h2 class="heading">
 return __p
 };
 
+this["JST"]["app/scripts/templates/sections/section-ticker-message.ejs"] = function(obj) {
+obj || (obj = {});
+var __t, __p = '', __e = _.escape;
+with (obj) {
+__p += '<div class="ticker__message__image">\n\t<img src="' +
+((__t = ( imgSrc )) == null ? '' : __t) +
+'" alt="" />\n</div>\n<div class="ticker__message__desc">\n\t' +
+((__t = ( text )) == null ? '' : __t) +
+'\n</div>';
+
+}
+return __p
+};
+
 this["JST"]["app/scripts/templates/sections/section-ticker.ejs"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<div class="inner">\n\t<header class="header">\n\t\t<h2 class="heading">' +
-((__t = ( title )) == null ? '' : __t) +
-'</h2>\n\t</header><!-- /header -->\n</div>';
+__p += '<div class="inner">\n\t<div class="ticker-wrap" id="ticker-wrap">\n\t\t\n\t</div>\n</div>';
 
 }
 return __p

@@ -18,6 +18,45 @@ text {
 	fill: white;
 }
 
+@-webkit-keyframes pulse-width {
+	0% {
+		stroke-width: 2;
+	}
+	50% {
+		stroke-width: 4;
+	}
+	100% {
+		stroke-width: 2;
+	}
+}
+
+@-webkit-keyframes pulse-color {
+	0% {
+		fill: $color-torquoise-bright;
+	}
+	50% {
+		fill: #FFF;
+	}
+	100% {
+		fill: $color-torquoise-bright;
+	}
+}
+
+.chart-path {
+	stroke: white;
+    stroke-width: 3;
+    fill: none;
+}
+
+.pulse-width {
+	-webkit-animation: pulse-width 2000ms infinite;
+}
+
+.pulse-color {
+	-webkit-animation: pulse-color 2000ms infinite;
+}
+
+
 .grid-line {
 	stroke: rgba(black, 0.2);
 }

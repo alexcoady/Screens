@@ -1,0 +1,50 @@
+.section--ticker {
+	@include grid-columns();
+	top: 1000px;
+	height: 80px;
+}
+
+.section--ticker > .inner {
+	background: transparent;
+	color: $color-grey-dark;
+	color: white;
+}
+
+.section--ticker .ticker-wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.section--ticker .ticker__list {
+	@include clearfix;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100000px;
+}
+
+.ticker__message {
+	display: block;
+	float: left;
+	margin-right: $spacing;
+	padding-right: $spacing;
+	background: rgba(white, 0.1)
+}
+
+.ticker__message .ticker__message__image {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: $spacing * 2;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.ticker__message .ticker__message__desc {
+	float: left;
+	line-height: 70px;
+}

@@ -6,13 +6,15 @@ define([
     'backbone',
     'templates',
     'views/sections/section-view',
-    'models/twitter-user-model',
+    'models/sections/twitter-user-model',
     'd3',
 
 ], function ($, _, Backbone, JST, SectionView, TwitterUserModel, d3) {
     'use strict';
 
     var SectionTwitterView = SectionView.extend({
+
+        animationDuration: 2000,
         
         template: JST['app/scripts/templates/sections/section-twitter.ejs'],
 
@@ -55,8 +57,6 @@ define([
             Draws weekly line chart
         */
         drawWeekChart: function drawWeekChartFn () {
-
-            console.log( this.$('.chart--twitter-week') );
 
             var dataset = [
                 [ 0, 5 ],
@@ -114,6 +114,10 @@ define([
                         .x(function (d) { return xScale(d[0]); })
                         .y(function (d) { return yScale(d[1]); });
 
+            var flatLine = d3.svg.line()
+                        .x(function (d) { return xScale(d[0]) })
+                        .y(function (d) { return (height - padding.bottom) / 2 });
+
             stage.selectAll("line.grid-line")
                       .data(yScale.ticks(5))
                       .enter().append("line")
@@ -124,18 +128,27 @@ define([
                       .attr("y2", yScale);
 
 
-            stage.selectAll('path.path')
+            stage.selectAll('path.chart-path')
                         .data([dataset])
                         .enter()
                         .append('path')
                         .attr({
-                            'class': 'path',
+                            'class': 'chart-path',
+                            d: function (d) {
+                                return flatLine(d);
+                            }
+                        });
+
+            stage.selectAll('path.chart-path')
+                        .data([dataset])
+                        .transition()
+                        .duration( this.animationDuration )
+                        .delay(1000)
+                        .attr({
+                            'class': 'chart-path pulse-width',
                             d: function (d) {
                                 return line(d);
-                            },
-                            "stroke": "white",
-                            "stroke-width": '3',
-                            "fill": 'none'
+                            }
                         });
 
             stage.append("g")
@@ -170,7 +183,7 @@ define([
                 [ 8, 54 ],
                 [ 9, 78 ],
                 [ 10, 34 ],
-                [ 11, 45 ],
+                [ 11, 100 ],
             ];
 
             var months = [
@@ -205,7 +218,7 @@ define([
 
             var yScale = d3.scale.linear() 
                         .domain([0, 100])
-                        .range([0, height - padding.bottom]);
+                        .range([height - padding.bottom, padding.top]);
 
             var xAxis = d3.svg.axis()
                         .scale(xScale)
@@ -224,9 +237,6 @@ define([
                         })
                         .classed("stage stage--twitter-month", true);
 
-            
-
-
             stage.selectAll("rect.bar-background")
                        .data(dataset)
                        .enter()
@@ -237,15 +247,14 @@ define([
                        })
                        .attr("y", function (d, i) {
 
-                            return 0;
+                            return padding.top;
                        })
                        .attr("width", width / dataset.length - padding.bar)
                        .attr("height", function (d, i) {
 
                             return height - padding.bottom;
                        })
-                       .attr("class", "bar-background")
-                       .attr("fill", "red");
+                       .attr("class", "bar-background");
 
             stage.selectAll("rect.bar-content")
                        .data(dataset)
@@ -257,14 +266,36 @@ define([
                        })
                        .attr("y", function (d, i) {
 
-                            return height - yScale(d[1]) - padding.bottom;
+                            return height - padding.bottom;
                        })
                        .attr("width", width / dataset.length - padding.bar)
                        .attr("height", function (d, i) {
 
-                            return yScale(d[1]);
+                            return 0;
                        })
                        .attr("class", "bar-content");
+
+            stage.selectAll("rect.bar-content")
+                       .data(dataset)
+                       .transition()
+                       .duration(300)
+                       .delay(function(d, i) {
+
+                            return i * 100;
+                       })
+                       .attr({
+                            "y": function (d, i) {
+
+                                return yScale(d[1]);
+                            },
+                            "height": function (d, i) {
+
+                                return yScale((height + padding.bottom / 2) - d[1])
+                            }
+                        })
+                       .each("end", function (d) {
+                            d3.select(this).classed("pulse-color", true);
+                       });
 
             stage.selectAll("text")
                         .data(dataset)

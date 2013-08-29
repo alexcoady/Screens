@@ -2547,15 +2547,13 @@ p {
 .section--countdown .content {
   background: #424297;
   color: #FFF;
+  height: 30px;
 }
 
 /* -------------------------------------------------------- */
-/* ------- SECTIONS - TWITTER ----------------------------- */
-/* -------------------------------------------------------- */
-/* -------------------------------------------------------- */
 /* ------- SECTIONS - NEWS -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 87, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 81, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section--news {
   width: 320px;
   left: 0;
@@ -2563,7 +2561,7 @@ p {
   top: 70px;
 }
 
-/* line 93, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 87, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section--news .inner {
   background: #d1174c;
 }
@@ -2571,40 +2569,24 @@ p {
 /* -------------------------------------------------------- */
 /* ------- SECTIONS - TEAM -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 101, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 95, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section--team {
   width: 720px;
   left: 800px;
   height: 430px;
   top: 400px;
+  display: none;
 }
 
-/* line 107, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 103, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section--team .inner {
   background: #424297;
 }
 
 /* -------------------------------------------------------- */
-/* ------- SECTIONS - TICKER ------------------------------ */
-/* -------------------------------------------------------- */
-/* line 116, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
-.section--ticker {
-  width: 1920px;
-  left: 0;
-  top: 1000px;
-  height: 70px;
-}
-
-/* line 122, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
-.section--ticker > .inner {
-  background: transparent;
-  color: #323230;
-}
-
-/* -------------------------------------------------------- */
 /* ------- SECTIONS - POLL -------------------------------- */
 /* -------------------------------------------------------- */
-/* line 132, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 114, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section--poll {
   width: 400px;
   left: 1520px;
@@ -2612,7 +2594,7 @@ p {
   height: 83%;
 }
 
-/* line 138, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
+/* line 120, /Users/alexcoady/Sites/Screen/app/styles/atoms/_sections.scss */
 .section--poll .inner {
   background: #ee3d96;
 }
@@ -2661,17 +2643,68 @@ text {
   fill: white;
 }
 
-/* line 21, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+@-webkit-keyframes pulse-width {
+  /* line 22, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+  0% {
+    stroke-width: 2;
+  }
+
+  /* line 25, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+  50% {
+    stroke-width: 4;
+  }
+
+  /* line 28, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+  100% {
+    stroke-width: 2;
+  }
+}
+
+@-webkit-keyframes pulse-color {
+  /* line 34, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+  0% {
+    fill: #17fff6;
+  }
+
+  /* line 37, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+  50% {
+    fill: #FFF;
+  }
+
+  /* line 40, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+  100% {
+    fill: #17fff6;
+  }
+}
+
+/* line 45, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+.chart-path {
+  stroke: white;
+  stroke-width: 3;
+  fill: none;
+}
+
+/* line 51, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+.pulse-width {
+  -webkit-animation: pulse-width 2000ms infinite;
+}
+
+/* line 55, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+.pulse-color {
+  -webkit-animation: pulse-color 2000ms infinite;
+}
+
+/* line 60, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
 .grid-line {
   stroke: rgba(0, 0, 0, 0.2);
 }
 
-/* line 25, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+/* line 64, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
 .bar-background {
   fill: rgba(0, 0, 0, 0.2);
 }
 
-/* line 29, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
+/* line 68, /Users/alexcoady/Sites/Screen/app/styles/atoms/_charts.scss */
 .bar-content {
   fill: #17fff6;
 }
@@ -2856,10 +2889,10 @@ text {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: top 3000;
-  -moz-transition: top 3000;
-  -o-transition: top 3000;
-  transition: top 3000;
+  -webkit-transition: top 30000;
+  -moz-transition: top 30000;
+  -o-transition: top 30000;
+  transition: top 30000;
 }
 
 /* line 39, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-news.scss */
@@ -2871,4 +2904,72 @@ text {
 /* line 44, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-news.scss */
 .section--news .entry-content p {
   font-size: 1.1em;
+}
+
+/* line 1, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.section--ticker {
+  width: 1920px;
+  left: 0;
+  top: 1000px;
+  height: 80px;
+}
+
+/* line 7, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.section--ticker > .inner {
+  background: transparent;
+  color: #323230;
+  color: white;
+}
+
+/* line 13, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.section--ticker .ticker-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 19, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.section--ticker .ticker__list {
+  *zoom: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100000px;
+}
+/* line 5, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section--ticker .ticker__list:before, .section--ticker .ticker__list:after {
+  content: "";
+  display: table;
+}
+/* line 9, /Users/alexcoady/Sites/Screen/app/styles/utilities/_clearfix.scss */
+.section--ticker .ticker__list:after {
+  clear: both;
+}
+
+/* line 27, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.ticker__message {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  padding-right: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 35, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.ticker__message .ticker__message__image {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+/* line 41, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.ticker__message .ticker__message__image img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 47, /Users/alexcoady/Sites/Screen/app/styles/molecules/_section-ticker.scss */
+.ticker__message .ticker__message__desc {
+  float: left;
+  line-height: 70px;
 }
